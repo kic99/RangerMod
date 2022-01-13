@@ -1,4 +1,4 @@
-<!-- kic's Ranger Expansion ver .01 -->
+<!-- kic's RangerMod ver .01 -->
 <configs>
 
 <!-- mods first -->
@@ -15,6 +15,10 @@
 	<item name="modArmorQuiver"/>
 </append>
 
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsMeleeT2']">
+	<item name="meleeStabbySpear"/>
+</append>    
+    
 
 <!-- then schematics -->
 

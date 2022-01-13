@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's Ranger Expansion ver .01 -->
 <configs>
 
 <append xpath="lootcontainers/lootgroup[@name='modGunT2']">
@@ -24,17 +24,6 @@
 	<item name="ammoArrowShockSchematic"/>
 	<item name="ammoArrowBulldozerSchematic"/>
 	<item name="ammoArrowStickySchematic"/>
-
-    
-<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
-	<item name="meleeStabbySpear"/>
-</append>
-
-<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
-	<item name="meleeStabbySpear"/>
-</append>
-
-
 	
 </append>
 

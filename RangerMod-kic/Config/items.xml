@@ -1,4 +1,4 @@
-<!-- kic's Ranger Expansion ver .01 -->
+<!-- kic's RangerMod ver .01 -->
 <configs>
 <append xpath="/items">
 
@@ -193,75 +193,8 @@
 
 </item>
 
-
-<!-- <item name="ammoArrowFrenzy">
-	<property name="Extends" value="ammoArrowSteelAP"/>
-	<property name="Tags" value="ammo,arrow"/>
-	<property name="CustomIcon" value="FrenzyArrow"/>
-	<property name="HoldType" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
-	<property name="TintColor" value="20,25,20"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="Material" value="MresourceScrapPolymers"/>
-	<property name="Stacknumber" value="75"/> --> <!-- STK ammo low -->
-<!--	<property name="EconomicValue" value="40"/>
-	<property name="UnlockedBy" value="perkArchery"/>
-	<effect_group name="ammoArrowFrenzy" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="52" tags="perkArchery"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
-		<passive_effect name="ProjectileVelocity" operation="base_set" value="60" tags="perkArchery"/>
-		<passive_effect name="ProjectileStickChance" operation="perc_subtract" value=".3"/>
-		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" cvar=".Tags" operation="add" value="animal" target="other" tags="zombie,animal"/>
-		</effect_group>
-</item> -->
-
-
-
-
-<!-- <item name="ammoArrowPenetrator">
-	<property name="Extends" value="ammoArrowSteelAP"/>
-	<property name="Tags" value="ammo,arrow"/>
-	<property name="CustomIcon" value="PenetratorArrow"/>
-	<property name="HoldType" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
-	<property name="TintColor" value="20,25,20"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="Material" value="MresourceScrapPolymers"/>
-	<property name="Stacknumber" value="75"/>
-	<property name="EconomicValue" value="40"/>
-	<property name="UnlockedBy" value="perkArchery"/>
-	<effect_group name="ammoArrowPenetrator" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="42" tags="perkArchery"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
-		<passive_effect name="ProjectileVelocity" operation="base_set" value="60" tags="perkArchery"/>
-		<passive_effect name="ProjectileStickChance" operation="perc_subtract" value=".1"/>
-		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="TalonBleed"/>
-		
-		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkArchery"/>
-		<display_value name="dTargetPenetration" value="1"/>
-		</effect_group> -->
-
-
-	<!-- <effect_group name="perkPenetrator" tiered="false">
-		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkArchery">
-			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="0"/>
-			<display_value name="dTargetPenetration" value="1"/></passive_effect>
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.15" tags="perkArchery">
-			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.25" tags="perkArchery">
-			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.35" tags="perkArchery">
-			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkArchery">
-			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
-	</effect_group> -->
-
-<!-- </item> -->
-
 <item name="meleeStabbySpear">
-	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
+	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="18"/>
 	<property name="CustomIcon" value="StabbySpear"/>
@@ -274,15 +207,10 @@
 	<property name="SoundDestroy" value="wooddestroy1"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="true"/>
-	<property name="IsSticky" value="true"/>
-	<property name="StickyOffset" value=".7"/>
-	<property name="StickyColliderUp" value="1"/>
-	<property name="StickyColliderRadius" value=".1"/>
-	<property name="StickyColliderLength" value="2"/>
-	<property name="StickyForwardDirection" value="0,0,1"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons,Basics"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
+    <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Hitmask_override" value="Melee"/>
@@ -295,44 +223,50 @@
 		<property name="SwingDegrees" value="10"/>
 		<property name="SwingAngle" value="20"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="woodhitorganic"/>
+            <property name="Override0" value="organic" param1="metalstaborganic"/>
 		</property>
 		<property class="GrazeSounds">
-			<property name="Override0" value="organic" param1="woodgrazeorganic"/>
-		</property>
-	</property>
+            <property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>	</property>
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sphere" value=".12"/>
+		<property name="Sphere" value=".14"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="UsePowerAttackAnimation" value="true"/>
 	</property>
 		<effect_group name="meleeStabbySpear">
-		<passive_effect name="EntityDamage" operation="base_set" value="10.3" tags="perkJavelinMaster"/>
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkJavelinMaster"/>
-		<display_value name="dTargetArmor" value="-.2"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkJavelinMaster"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="18.6" tags="perkJavelinMaster"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkJavelinMaster"/>
+		<display_value name="dTargetArmor" value="-.5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="9" tags="perkJavelinMaster"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkJavelinMaster"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="18.5" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="60,100" tier="1,6" tags="perkJavelinMaster"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="22.4" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="317,592" tier="1,6" tags="perkJavelinMaster"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
 		<passive_effect name="MaxRange" operation="base_set" value="3.2" tags="perkJavelinMaster"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
+
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
 	</effect_group>
 	<effect_group name="PowerAttack">
-		<passive_effect name="EntityDamage" operation="perc_add" value="1.85" tags="secondary"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="1.85" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.1" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="36.9" tags="secondary"/>
 	</effect_group>
 </item>

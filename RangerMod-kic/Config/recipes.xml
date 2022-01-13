@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's Ranger Expansion ver .01 -->
 <configs>
 <append xpath="/recipes">
 
@@ -87,19 +87,6 @@
 		<ingredient count="5" name="resourceScrapPolymers"/>
 		<ingredient count="5" name="resourceGlue"/>
 	</recipe>
-    
-    
-    <recipe name="meleeStabbySpear" count="1" craft_area="workbench" tags="learnable,perkJavelinMaster">
-	<ingredient name="meleeWpnSpearT3SteelSpearParts" count="5"/>
-	<ingredient name="resourceForgedSteel" count="10"/>
-	<ingredient name="resourceWood" count="10"/>
-	<ingredient name="resourceLeather" count="3"/>
-	<ingredient name="resourceDuctTape" count="3"/>
-	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="meleeWpnSpearT3SteelSpearParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape"/>
-	</effect_group>
-</recipe>
-
 
 
 	

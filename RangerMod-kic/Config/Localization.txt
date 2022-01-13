@@ -39,6 +39,8 @@ ammoBundleArrowStickyDesc,items,Ammo,,,A bundle of entangling arrows. Use to unp
 ammoBundleArrowTalon,items,Ammo,,,Bundle of Black Talon Arrows,,
 ammoBundleArrowTalonDesc,items,Ammo,,,A bundle of black talon arrows. Use to unpackage it.,,
 
+meleeStabbySpear,items,Melee,,,Steel Spear (stabby),,
+meleeStabbySpearDesc,items,Melee,,,"The same great regular steel spear you know and love, only this one has a power attack that stabs instead of getting yeeted somewhere and vanishing into the underbrush, never to be seen again.",,
 
 
 ammoArrowBreachSchematic,items,Ammo,,,Breaching Arrow Schematic,,

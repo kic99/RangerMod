@@ -1,0 +1,91 @@
+<!-- kic's Ranger Expansion ver .01 -->
+<configs>
+<append xpath="/buffs">
+
+
+	<buff name="buffSticky" name_key="buff Sticky" icon="ui_game_symbol_stunned" icon_color="255,128,0">
+		<damage_type value="stun"/>
+		<stack_type value="ignore"/>
+		<duration value="300"/>
+		<effect_group>
+			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffSticky"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSticky">
+				<requirement name="!EntityTagCompare" tags="walker,zombie,animal"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSticky">
+				<requirement name="EntityTagCompare" tags="player"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AnimatorSetInt" property="WalkType" value="5">
+				<requirement name="!EntityTagCompare" tags="player"/>
+				<requirement name="EntityTagCompare" tags="walker,zombie,animal"/>
+			</triggered_effect>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="!EntityTagCompare" tags="player"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".65"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".65"/>
+		</effect_group>
+	</buff>
+	
+	
+	<buff name="TalonBleed" name_key="TalonBleed" icon="ui_game_symbol_critical" icon_color="255,255,0" icon_blink="true" hidden="true">
+		<damage_type value="bloodloss"/>
+		<duration value="6"/>
+		<effect_group>
+		<passive_effect name="HealthChangeOT" operation="base_subtract" value="13">
+			<requirement name="EntityTagCompare" tags="zombie,animal"/>
+		</passive_effect>
+		</effect_group>
+	</buff>
+	
+	
+	
+		<buff name="buffQuiver" name_key="buffQuiver" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+				
+		<effect_group name="perkT0">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="0"/>
+			<!--<requirement name="CVarCompare" cvar=".perkArchery" operation="GTE" value="4"/>-->
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value=".1"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".1"/>
+		</effect_group>
+		<effect_group name="perkT1">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="1"/>
+			<!--<requirement name="CVarCompare" cvar=".perkArchery" operation="GTE" value="4"/>-->
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value=".15"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
+		</effect_group>
+		<effect_group name="perkT2">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="2"/>
+			<!--<requirement name="CVarCompare" cvar=".perkArchery" operation="GTE" value="4"/>-->
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value=".2"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".2"/>
+		</effect_group>
+		<effect_group name="perkT3">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="3"/>
+			<!--<requirement name="CVarCompare" cvar=".perkArchery" operation="GTE" value="4"/>-->
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value=".25"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".25"/>
+		</effect_group>
+		<effect_group name="perkT4">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="4"/>
+			<!--<requirement name="CVarCompare" cvar=".perkArchery" operation="GTE" value="4"/>-->
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value=".3"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".3"/>
+		</effect_group>
+		<effect_group name="perkT5">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="5"/>
+			<!--<requirement name="CVarCompare" cvar=".perkArchery" operation="GTE" value="4"/>-->
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value=".4"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".4"/>
+		</effect_group>
+
+	</buff>
+	
+	
+	</append>
+</configs>

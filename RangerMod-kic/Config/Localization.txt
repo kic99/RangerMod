@@ -1,0 +1,56 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+
+ammoArrowBreach,items,Ammo,,,Breaching Arrow,,
+ammoArrowBreachDesc,items,Ammo,,,"Arrows designed to penetrate high density structures such as doors and chests. Can be used against organics in a pinch, but at reduced effectiveness versus standard arrows. Payload renders fired arrows unrecoverable.",,
+
+ammoArrowShock,items,Ammo,,,Shock Arrow,,
+ammoArrowShockDesc,items,Ammo,,,"Arrows with an electrical kick. Give your enemy a shocking surprise, as well as those unfortunate enough to be nearby. Must directly hit mob to activate effect; fired arrows unrecoverable.\n\nShock area of effect is based on ARCHERY perk level.",,
+
+ammoArrowBulldozer,items,Ammo,,,Bulldozer Arrow,,
+ammoArrowBulldozerDesc,items,Ammo,,,Rock your enemies like a hurricane. A small concussive blast that sends your foes flying. Must directly hit mob to activate effect; fired arrows unrecoverable.\n\nBlast area of effect is based on ARCHERY perk level.,,
+
+ammoArrowSticky,items,Ammo,,,Entangling Arrow,,
+ammoArrowStickyDesc,items,Ammo,,,Enemy on your heels? Slow their movement with this entangling arrow. Has a small area of effect. Must directly hit mob to activate effect; fired arrows unrecoverable.\n\nSlow area of effect is based on ARCHERY perk level.,,
+
+ammoArrowTalon,items,Ammo,,,Black Talon Arrow,,
+ammoArrowTalonDesc,items,Ammo,,,"When a steel broadhead just won't get the job done, you grab the black talon arrow. High single target damage through armor degradation and severe bleeding. These arrows may sometimes be recovered. \n\nArmor degradation is based on PENETRATOR perk level.",,
+
+modArmorQuiver,items,Ammo,,,Trick Arrow Quiver,,
+modArmorQuiverDesc,items,Ammo,,,A quiver that helps you organize your arrows. Improves your shooting efficiency based on your ARCHERY perk level.\n\nMUST REMOVE AND RE-EQUIP TO SEE INCREASED BONUS IF YOU UPGRADE YOUR ARCHERY PERK.,,
+
+modGunBowStabilizer,items,Ammo,,,Bow Stabilizer,,
+modGunBowStabilizerDesc,items,Ammo,,,Improve your aim by adding a stabilizer to your bow. Increases accuracy by reducing vibrations.,,
+
+modGunBowUpgradedCams,items,Ammo,,,Upgraded Bow Cams,,
+modGunBowUpgradedCamsDesc,items,Ammo,,,"New cams (just accept it and move on if you're not using a compound bow) that increase the draw strength of the bow, allowing for higher arrow velocity and damage.",,
+
+ammoBundleArrowBreach,items,Ammo,,,Bundle of Breaching Arrows,,
+ammoBundleArrowBreachDesc,items,Ammo,,,A bundle of breaching arrows. Use to unpackage it.,,
+
+ammoBundleArrowShock,items,Ammo,,,Bundle of Shock Arrows,,
+ammoBundleArrowShockDesc,items,Ammo,,,A bundle of shock arrows. Use to unpackage it.,,
+
+ammoBundleArrowBulldozer,items,Ammo,,,Bundle of Bulldozer Arrows,,
+ammoBundleArrowBulldozerDesc,items,Ammo,,,A bundle of bulldozer arrows. Use to unpackage it.,,
+
+ammoBundleArrowSticky,items,Ammo,,,Bundle of Entangling Arrows,,
+ammoBundleArrowStickyDesc,items,Ammo,,,A bundle of entangling arrows. Use to unpackage it.,,
+
+ammoBundleArrowTalon,items,Ammo,,,Bundle of Black Talon Arrows,,
+ammoBundleArrowTalonDesc,items,Ammo,,,A bundle of black talon arrows. Use to unpackage it.,,
+
+
+
+ammoArrowBreachSchematic,items,Ammo,,,Breaching Arrow Schematic,,
+
+ammoArrowShockSchematic,items,Ammo,,,Shock Arrow Schematic,,
+
+ammoArrowBulldozerSchematic,items,Ammo,,,Bulldozer Arrow Schematic,,
+
+ammoArrowStickySchematic,items,Ammo,,,Entangling Arrow Schematic,,
+
+modArmorQuiverSchematic,items,Ammo,,,Trick Arrow Quiver Schematic,,
+
+modGunBowStabilizerSchematic,items,Ammo,,,Bow Stabilizer Schematic,,
+
+modGunBowUpgradedCamsSchematic,items,Ammo,,,Upgraded Bow Cams Schematic,,

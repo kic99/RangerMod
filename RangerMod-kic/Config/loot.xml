@@ -1,0 +1,30 @@
+<!-- kic's Ranger Expansion ver .01 -->
+<configs>
+
+<append xpath="lootcontainers/lootgroup[@name='modGunT2']">
+	<item name="modGunBowStabilizer"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='modGunT3']">
+	<item name="modGunBowUpgradedCams"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='modArmorT3']">
+	<item name="modArmorQuiver"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+	<item name="modGunBowUpgradedCamsSchematic"/>
+	<item name="modGunBowStabilizerSchematic"/>
+	<item name="modArmorQuiverSchematic"/>
+</append>
+	
+<append xpath="lootcontainers/lootgroup[@name='schematicsWeaponsRare']">
+	<item name="ammoArrowBreachSchematic"/>
+	<item name="ammoArrowShockSchematic"/>
+	<item name="ammoArrowBulldozerSchematic"/>
+	<item name="ammoArrowStickySchematic"/>
+	
+</append>
+
+</configs>

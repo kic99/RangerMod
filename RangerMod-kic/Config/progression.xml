@@ -1,0 +1,28 @@
+<!-- kic's Ranger Expansion ver .01 -->
+<configs>
+	<append xpath="/progression/perks/perk[@name='perkArchery']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="ammoArrowTalon,ammoBundleArrowTalon"/>
+		</effect_group>
+	</append>
+
+<!-- <perk name="perkArchery" parent="skillAgilityCombat" name_key="perkArcheryName" desc_key="perkArcheryDesc" icon="ui_game_symbol_archery">
+	<effect_group>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="ammoArrowTalon"/>
+	</effect_group>
+</perk> -->
+	
+	<append xpath="/progression/perks/perk[@name='perkRangersComplete']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowBreach,ammoBundleArrowShock,ammoBundleArrowBulldozer,ammoBundleArrowSticky"/>
+		</effect_group>
+	</append>
+
+
+<!-- <perk name="perkRangersComplete" parent="skillArchery" max_level="1" base_skill_point_cost="0" name_key="perkRangersCompleteName" desc_key="perkRangersCompleteDesc" long_desc_key="perkRangersCompleteLongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowBreach,ammoBundleArrowShock,ammoBundleArrowBulldozer,ammoBundleArrowSticky"/>
+		</effect_group>
+	</perk>	 -->
+
+</configs>

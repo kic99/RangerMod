@@ -1,0 +1,36 @@
+<!-- kic's Ranger Expansion ver .01 -->
+<configs>
+
+<!-- mods first -->
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT2']">
+	<item name="modGunBowStabilizer"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT3']">
+	<item name="modGunBowUpgradedCams"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modArmorT3']">
+	<item name="modArmorQuiver"/>
+</append>
+
+
+<!-- then schematics -->
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+	<item name="modGunBowUpgradedCamsSchematic"/>
+	<item name="modGunBowStabilizerSchematic"/>
+	<item name="modArmorQuiverSchematic"/>
+</append>
+
+<!-- this seemed liked the most appropriate table based on the vanilla contents -->
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+	<item name="ammoArrowBreachSchematic"/>
+	<item name="ammoArrowShockSchematic"/>
+	<item name="ammoArrowBulldozerSchematic"/>
+	<item name="ammoArrowStickySchematic"/>
+</append>
+
+</configs>

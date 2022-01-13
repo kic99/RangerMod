@@ -1,0 +1,94 @@
+<!-- kic's Ranger Expansion ver .01 -->
+<configs>
+<append xpath="/recipes">
+
+
+	<recipe count="1" name="ammoArrowBreach" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="1" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="2" name="resourceScrapPolymers"/>
+		<ingredient count="3" name="resourceForgedSteel"/>
+		<ingredient count="5" name="resourceGunPowder"/>
+	</recipe>
+
+	<recipe name="ammoBundleArrowBreach" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="60" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="120" name="resourceScrapPolymers"/>
+		<ingredient count="180" name="resourceForgedSteel"/>
+		<ingredient count="300" name="resourceGunPowder"/>
+	</recipe>
+	
+	
+	<recipe count="1" name="ammoArrowShock" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="1" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="2" name="resourceScrapPolymers"/>
+		<ingredient count="5" name="resourceElectricParts"/>
+	</recipe>
+	
+	<recipe count="1" name="ammoBundleArrowShock" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="60" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="120" name="resourceScrapPolymers"/>
+		<ingredient count="300" name="resourceElectricParts"/>
+	</recipe>
+	
+	
+	<recipe count="1" name="ammoArrowSticky" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="1" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="2" name="resourceScrapPolymers"/>
+		<ingredient count="5" name="resourceGunPowder"/>
+	</recipe>
+
+	<recipe count="1" name="ammoBundleArrowSticky" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="60" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="120" name="resourceScrapPolymers"/>
+		<ingredient count="300" name="resourceGunPowder"/>
+	</recipe>	
+	
+	<recipe count="1" name="ammoArrowBulldozer" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="1" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="2" name="resourceScrapPolymers"/>
+		<ingredient count="2" name="resourceMechanicalParts"/>
+	</recipe>
+
+	<recipe count="1" name="ammoBundleArrowBulldozer" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="60" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="120" name="resourceScrapPolymers"/>
+		<ingredient count="120" name="resourceMechanicalParts"/>
+	</recipe>
+	
+	
+	<recipe count="1" name="ammoArrowTalon" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="2" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="3" name="resourceScrapPolymers"/>
+		<ingredient count="1" name="resourceForgedSteel"/>
+	</recipe>
+
+	<recipe count="1" name="ammoBundleArrowTalon" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="120" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="180" name="resourceScrapPolymers"/>
+		<ingredient count="60" name="resourceForgedSteel"/>
+	</recipe>
+
+	<recipe name="modArmorQuiver" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="25" name="resourceLeather"/>
+		<ingredient count="2" name="resourceScrapPolymers"/>
+		<ingredient count="5" name="resourceGlue"/>
+		<ingredient count="3" name="resourceSewingKit"/>
+		<ingredient count="2" name="resourceForgedSteel"/>
+	</recipe>
+	
+		
+	<recipe name="modGunBowUpgradedCams" craft_time="10" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="10" name="resourceForgedSteel"/>
+		<ingredient count="2" name="resourceSpring"/>		
+	</recipe>
+
+	<recipe name="modGunBowStabilizer" craft_time="15" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="10" name="resourceForgedSteel"/>
+		<ingredient count="5" name="resourceScrapPolymers"/>
+		<ingredient count="5" name="resourceGlue"/>
+	</recipe>
+
+
+	
+</append>
+</configs>

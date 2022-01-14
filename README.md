@@ -2,9 +2,11 @@
 ## Disclosure: This is a personal project and is designed, primarily, for my enjoyment and use on my YT channel. I'm releasing it to the public in case someone is interested in it. Because it's a personal project, that's the primary lens through which I view balancing, features, etc., but I welcome constructive feedback.
 
 ----------------
-### Installation
+### Download and Installation
 
-Unzip the RangerMod.zip file and put the resulting RangerMod folder into your 7DaystoDie/Mods folder. It's the same as pretty much every other modlet. If you're putting it on a server, it needs to be on both server and client machines. If you're installing on a Mac or Linux, google how to install mods on those. (For Mac, I know it involves finding the 7 Days to Die package, opening those contents, and then adding a mods folder in the resulting folder, into which the RangerMod folder should go. Really, just google it.)
+Can't find the file? Look under "Releases" on the right. That's what you want.
+
+Installing? Unzip the RangerMod.zip file and put the resulting RangerMod folder into your 7DaystoDie/Mods folder. It's the same as pretty much every other modlet. If you're putting it on a server, it needs to be on both server and client machines. If you're installing on a Mac or Linux, google how to install mods on those. (For Mac, I know it involves finding the 7 Days to Die package, opening those contents, and then adding a mods folder in the resulting folder, into which the RangerMod folder should go. Really, just google it.)
 
 ----------------
 ### Author's mindless babbling

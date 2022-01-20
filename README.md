@@ -8,7 +8,7 @@ Can't find the file? Look under "Releases" on the right. That's what you want.
 
 Installing? Unzip the RangerMod.zip file and put the resulting RangerMod-kic folder (see note below) into your 7DaystoDie/Mods folder. It's the same as pretty much every other modlet. If you're putting it on a server, it needs to be on both server and client machines. If you're installing on a Mac or Linux, google how to install mods on those. (For Mac, I know it involves finding the 7 Days to Die package, opening those contents, and then adding a mods folder in the resulting folder, into which the RangerMod folder should go. Really, just google it.) To be clear, this is for alpha 20. It has not been tested on previous versions and may or may not work on those.
 
-**NOTE**: When you unzip the release file, you'll get a directory as a result. That should go into your Mods directory. If things aren't working or things are funky, then make sure you mirror the structure that's listed on [github](https://github.com/kic99/RangerMod), meaning you want the "RangerMod-kic" folder that contains the Config and UIAtlas folders to be one that's in your Mods directory.
+**NOTE**: Slightly elongated installation instructions: when you unzip the release file, you'll get a directory as a result. That should go into your Mods directory. If things aren't working or things are funky, then make sure you mirror the structure that's listed on [github](https://github.com/kic99/RangerMod), meaning you want the "RangerMod-kic" folder that contains the Config and UIAtlas folders to be one that's in your Mods directory.
 
 ----------------
 ### Author's mindless babbling

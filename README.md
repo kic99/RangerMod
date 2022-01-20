@@ -1,4 +1,4 @@
-# RangerMod by kic
+# RangerMod by kic (for 7 Days to Die alpha 20)
 ## Disclosure: This is a personal project and is designed, primarily, for my enjoyment and use on my YT channel. I'm releasing it to the public in case someone is interested in it. Because it's a personal project, that's the primary lens through which I view balancing, features, etc., but I welcome constructive feedback.
 
 ----------------
@@ -6,7 +6,7 @@
 
 Can't find the file? Look under "Releases" on the right. That's what you want.
 
-Installing? Unzip the RangerMod.zip file and put the resulting RangerMod-kic folder (see note below) into your 7DaystoDie/Mods folder. It's the same as pretty much every other modlet. If you're putting it on a server, it needs to be on both server and client machines. If you're installing on a Mac or Linux, google how to install mods on those. (For Mac, I know it involves finding the 7 Days to Die package, opening those contents, and then adding a mods folder in the resulting folder, into which the RangerMod folder should go. Really, just google it.)
+Installing? Unzip the RangerMod.zip file and put the resulting RangerMod-kic folder (see note below) into your 7DaystoDie/Mods folder. It's the same as pretty much every other modlet. If you're putting it on a server, it needs to be on both server and client machines. If you're installing on a Mac or Linux, google how to install mods on those. (For Mac, I know it involves finding the 7 Days to Die package, opening those contents, and then adding a mods folder in the resulting folder, into which the RangerMod folder should go. Really, just google it.) To be clear, this is for alpha 20. It has not been tested on previous versions and may or may not work on those.
 
 **NOTE**: github maybe have double folders in the zip file, meaning, that you extract the contents into a folder, and then there's another folder inside that one that has the actual mod contents. You want to mirror the structure that's listed here, meaning you want the "RangerMod-kic" folder that contains the Config and UIAtlas folders to be one that's in your Mods directory. I'll need to take a look at the way things are stored and see if I can make it less confusing. Sorry!
 

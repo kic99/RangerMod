@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .3 -->
+<!-- kic's RangerMod ver .31 -->
 <configs>
 
 <append xpath="lootcontainers/lootgroup[@name='modGunT2']">
@@ -23,6 +23,15 @@
 
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Archery']">
 	<item name="gunBowReaperInit"/>
+</append>
+
+
+<append xpath="lootcontainers/lootgroup[@name='groupTreasureMaps']">
+	<item name="qt_talonstash1"/>
+	<item name="qt_titanstash1"/>
+	<item name="qt_midnightstash1"/>
+	<item name="qt_jesterstash1"/>
+	<item name="qt_bedlamstash1"/>
 </append>
 
 

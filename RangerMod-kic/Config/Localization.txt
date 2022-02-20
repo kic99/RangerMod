@@ -12,8 +12,18 @@ ammoArrowBulldozerDesc,items,Ammo,,,Rock your enemies like a hurricane. A small 
 ammoArrowSticky,items,Ammo,,,Entangling Arrow,,
 ammoArrowStickyDesc,items,Ammo,,,Enemy on your heels? Slow their movement with this entangling arrow. Has a small area of effect. Must directly hit mob to activate effect; fired arrows unrecoverable.\n\nSlow area of effect is based on ARCHERY perk level.,,
 
-ammoArrowTalon,items,Ammo,,,Black Talon Arrow,,
-ammoArrowTalonDesc,items,Ammo,,,"When a steel broadhead just won't get the job done, you grab the black talon arrow. High single target damage through armor degradation and severe bleeding. These arrows may sometimes be recovered. \n\nArmor degradation is based on PENETRATOR perk level.",,
+ammoArrowTalon,items,Ammo,,,Shredder Arrow,,
+ammoArrowTalonDesc,items,Ammo,,,"When a steel broadhead just won't get the job done, you grab the shredder arrow. High single target damage through armor piercing and severe bleeding. These arrows may sometimes be recovered.\n\nArmor degradation is based on PENETRATOR perk level.",,
+
+ammoArrowTitan,items,Ammo,,,Pulverizer Arrow,,
+ammoArrowTitanDesc,items,Ammo,,,"Plastic, steel, and pure, undeniable power packed into arrow form. Titan always said that the bigger they were, the more she liked shooting them. More effective than steel arrows in all respects, and more expensive.",,
+
+ammoArrowJester,items,Ammo,,,Jester's Joking Jab Arrow,,
+ammoArrowJesterDesc,items,Ammo,,,"Jester liked fun. Jester really liked fun. This arrow is fun compressed into a delightful blend of plastic, steel, and chaos. Produces a random effect upon striking a fleshy (undead or animal) target. Thankfully, doesn’t work on people.",,
+
+ammoArrowImmolation,items,Ammo,,,Immolation Arrow,,
+ammoArrowImmolationDesc,items,Ammo,,,"It goes without saying that Bedlam enjoys chaos. What better way to sew doubt and chaos in your enemies than to light them, and all their friends, on fire? A good time for everyone.",,
+
 
 modArmorQuiver,items,Ammo,,,Trick Arrow Quiver,,
 modArmorQuiverDesc,items,Ammo,,,A quiver that helps you organize your arrows. Improves your shooting efficiency based on your ARCHERY perk level.\n\nMUST REMOVE AND RE-EQUIP TO SEE INCREASED BONUS IF YOU UPGRADE YOUR ARCHERY PERK.,,
@@ -36,12 +46,53 @@ ammoBundleArrowBulldozerDesc,items,Ammo,,,A bundle of bulldozer arrows. Use to u
 ammoBundleArrowSticky,items,Ammo,,,Bundle of Entangling Arrows,,
 ammoBundleArrowStickyDesc,items,Ammo,,,A bundle of entangling arrows. Use to unpackage it.,,
 
-ammoBundleArrowTalon,items,Ammo,,,Bundle of Black Talon Arrows,,
-ammoBundleArrowTalonDesc,items,Ammo,,,A bundle of black talon arrows. Use to unpackage it.,,
+ammoBundleArrowTalon,items,Ammo,,,Bundle of Shredder Arrows,,
+ammoBundleArrowTalonDesc,items,Ammo,,,A bundle of shredder arrows. Use to unpackage it.,,
 
-meleeStabbySpear,items,Melee,,,Steel Spear (stabby),,
-meleeStabbySpearDesc,items,Melee,,,"The same great regular steel spear you know and love, only this one has a power attack that stabs instead of getting yeeted somewhere and vanishing into the underbrush, never to be seen again.",,
+ammoBundleArrowJester,items,Ammo,,,Bundle of Jester's Joking Jab Arrows,,
+ammoBundleArrowTalonDesc,items,Ammo,,,A bundle of Jester's joking jab arrows. Use to unpackage it.,,
 
+ammoBundleArrowTitan,items,Ammo,,,Bundle of Pulverizer Arrows,,
+ammoBundleArrowTalonDesc,items,Ammo,,,A bundle of pulverizer arrows. Use to unpackage it.,,
+
+ammoBundleArrowImmolation,items,Ammo,,,Bundle of Immolation Arrows,,
+ammoBundleArrowImmolationDesc,items,Ammo,,,A bundle of immolation arrows. Use to unpackage it.,,
+
+meleeStabbySpear,items,Melee,,,Steel Reaper Spear,,
+meleeStabbySpearDesc,items,Melee,,,"The same great regular steel spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting.\n\nRepair with Repair Kits.\nScraps to Spear parts.",,
+
+meleeStabbySpearIron,items,Melee,,,Iron Reaper Spear,,
+meleeStabbySpearIronDesc,items,Melee,,,"The same great regular iron spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting.\n\nRepair with Repair Kits.\nScraps to Spear parts.",,
+
+meleeStabbySpearStone,items,Melee,,,Stone Reaper Spear,,
+meleeStabbySpearStoneDesc,items,Melee,,,"The same great regular stone spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting.\n\nRepair with Stones.\nScraps to stone.",,
+
+BowTalonBow,items,Melee,,,Talon's Flurry,,
+BowTalonBowDesc,items,Melee,,,"Talon prefers speed and manueverability. What this bow lacks in oomph, it makes up for with rapid-fire ability. Provides a small run speed increase. Nocks multiple arrows based on Archery perk level for firing in rapid succession.\n\nRepair with Repair Kits.\nScraps to Bow/Crossbow parts.",,
+
+BowTitanBow,items,Melee,,,Titan's Domination,,
+BowTitanBowDesc,items,Melee,,,"Titan prefers brute force. Enhanced damage at the cost of increased draw time. Nocks *and* fires two arrows simultaneously at high archery skill (5).\n\nRepair with Repair Kits.\nScraps to Bow/Crossbow parts.",,
+
+gunBowReaperInit,items,Melee,,,Reaper Initiate's Bow,,
+gunBowReaperInitDesc,items,Melee,,,"New blood to the Reapers were given a bundle of arrows, a bow, and a spear. An inexpensive bow for a learner, but with some room for growth.\n\nCan use 5 mods at quality 6.",,
+
+MidnightsShroud,items,Melee,,,Midnight's Shroud,,
+MidnightsShroudDesc,items,Melee,,,"This long coat protected Midnight from the elements, and the undead. And thanks to its color of a moonless night, it aided her stealth, and now, yours.",,
+
+MidnightsJudgment,items,Melee,,,Midnight's Judgement,,
+MidnightsJudgmentDesc,items,Melee,,,"The best of both worlds: the clearing ability of a shotgun with the compactness of a pistol. Considered both a pistol and shotgun for perks.\n\nScraps to Shotgun parts.",,
+
+BedlamsTurningPoint,items,Melee,,,Bedlam's Turning Point,,
+BedlamsTurningPointDesc,items,Melee,,,"There’s always room for improvement. In Bedlam’s case, she thought that long, pointy things should also be packed with electricity. Both stab and electrocute your enemies from outside of biting range, all in one delightful, menacing package.",,
+
+BedlamsCage,items,Melee,,,Bedlam's Cage,,
+BedlamsCageDesc,items,Melee,,,"When firepower wasn’t enough (when isn’t it?), Bedlam figured that intimidation might be a good avenue to explore. As well as protection from explosives and teeth. What more could you want?",,
+
+JestersDancingShoes,items,Melee,,,Jester's Delightfully Dreadful Dancing Shoes,,
+JestersDancingShoesDesc,items,Melee,,,"She swore by these shoes, and so long as she wore them, she was always okay. It was only the day she didn’t get a chance to wear them that things went awry.\n\nIncreases mobility and reduces stamina usage for movement.",,
+
+ReaperToken,items,Melee,,,Reaper Token,,
+ReaperTokenDesc,items,Melee,,,"Tokens given to Reapers for helping their fellow humans.\n\nDoes not currently serve a purpose, but it will in the future.",,
 
 ammoArrowBreachSchematic,items,Ammo,,,Breaching Arrow Schematic,,
 
@@ -56,3 +107,89 @@ modArmorQuiverSchematic,items,Ammo,,,Trick Arrow Quiver Schematic,,
 modGunBowStabilizerSchematic,items,Ammo,,,Bow Stabilizer Schematic,,
 
 modGunBowUpgradedCamsSchematic,items,Ammo,,,Upgraded Bow Cams Schematic,,
+
+BowTalonBowSchematic,items,Ammo,,,Talon Bow Schematic,,
+
+BowTitanBowSchematic,items,Ammo,,,Titan Bow Schematic,,
+
+BookMidnightsBook1,items,perk  book,,,Vol 1: How to Have Fun in the Apocalypse
+BookMidnightsBook2,items,perk  book,,,Vol 2: Here Comes a Zombie: Don't Get Caught
+BookMidnightsBook3,items,perk  book,,,Vol 3: Need That Unlocked? No Problem!
+BookMidnightsBook4,items,perk  book,,,Vol 4: If It Bleeds, We Can Kill It
+BookMidnightsBook5,items,perk  book,,,Vol 5: Pyromania for Fun and Profit
+BookMidnightsBook6,items,perk  book,,,Vol 6: Dance for Me, My Pretties
+BookMidnightsBook7,items,perk  book,,,Vol 7: Hit It With a Truck
+
+perkMidnightsBook1Desc,progression,perk  book,,,Craft bulldozer and Jester's arrows.
+perkMidnightsBook1LongDesc,progression,perk  book,,,"Learn to craft new arrows: Jester's Joking Jab brings levity to the battlefield, and the bulldozer bowls over your enemies. Bedlam approved."
+perkMidnightsBook2Desc,progression,perk  book,,,Craft entangling arrows.
+perkMidnightsBook2LongDesc,progression,perk  book,,,"Learn to craft a new arrow: Enemies hot on your heels? Slow them down with the entangling arrow."
+perkMidnightsBook3Desc,progression,perk  book,,,Craft breach arrows.
+perkMidnightsBook3LongDesc,progression,perk  book,,,"Learn to craft a new arrow: Doors and locked chests got you down? Try breach arrows, today."
+perkMidnightsBook4Desc,progression,perk  book,,,Craft shredder arrows.
+perkMidnightsBook4LongDesc,progression,perk  book,,,"Learn to craft a new arrow: Talon figured that if he hit an enemy hard enough and opened up a severe wound, chances are, they won't get back up to fight Sometimes."
+perkMidnightsBook5Desc,progression,perk  book,,,Craft immolation arrows.
+perkMidnightsBook5LongDesc,progression,perk  book,,,"Learn to craft a new arrow: You can usually tell which arrows Bedlam was behind. Fire? On everyone near your target? Yeah."
+perkMidnightsBook6Desc,progression,perk  book,,,Craft shock arrows.
+perkMidnightsBook6LongDesc,progression,perk  book,,,"Learn to craft a new arrow: Once again, teamwork is the best: Jester and Bedlam created this delight that turns the battlefield into a dance hall."
+perkMidnightsBook7Desc,progression,perk  book,,,Craft pulverizer arrows.
+perkMidnightsBook7LongDesc,progression,perk  book,,,"Learn to craft a new arrow: Titan figured that if you hit something hard enough to kill it, it doesn't need to bleed. A simple solution."
+
+
+perkMidnightsBooks0Desc,progression,perk  book,,,Learn the secrets that allowed Midnight's Reapers to decimate the undead.,,
+perkMidnightsBooks0Name,progression,perk  book,,,Midnight's Secrets,,
+
+perkMidnightsBookCompleteDesc,progression,perk  book,,,Unlock an array of arrow bundles,,
+perkMidnightsBookCompleteName,progression,perk  book,,,Midnight's Secrets - Completion,,
+perkMidnightsBookCompleteLongDesc,progression,perk  book,,,"Learn to craft bundles of: bulldozer, Jester's Joking Jab, entangling, breach, shredder, immolation, shock, and pulverizer arrows.",,
+
+
+qt_talonstash1,items,Quest - Treasure Map,,,Talon's Ascent,,
+treasure_talonstash1,items,Quest - Treasure Map,,,Talon's Ascent,,
+treasure_talonstash1_offer,Quest,Challenge Info,,,"If you found this, then don't stop. Keep going. Find what I left behind.",,
+
+noteTalon1,items,Quest - Note,,,Note from Talon,,
+noteTalon1Desc,items,Quest - Note,,,"I always liked Titan because we’re opposites. I cherish mobility and speed, flexibility and adaptability. Titan eschews that for brute strength and determination as tough as a diamond. You try and stop her and it’s on your head. Regardless of your approach, I hope you’ll find these trinkets useful. They’ve served me well, but they should serve someone else, now. Use them as I did. Be a Reaper.",,
+
+cntBuriedLootStashTalon1Chest,blocks,Block,,,Buried Reaper Stash - Talon's,,
+cntBuriedLootStashTalon1ChestInsecure,blocks,Block,,,Buried Reaper Stash - Talon's,,
+
+qt_titanstash1,items,Quest - Treasure Map,,,Standing on the Shoulders of Titan,,
+treasure_titanstash1,items,Quest - Treasure Map,,,Standing on the Shoulders of Titan,,
+treasure_titanstash1_offer,Quest,Challenge Info,,,"I spent my life lifting up others. I still do.",,
+
+noteTitan1,items,Quest - Note,,,Note from Titan,,
+noteTitan1Desc,items,Quest - Note,,,"I bet Talon wrote something about me being a brute, but he knows the truth. For now, I gift to you the tools that allowed me to become the person I am today. If not for Midnight, for Talon, Jester, and even Bedlam, I wouldn’t be here, and I wouldn’t be able to carry forward the Reapers’ ultimate goal: restoring humanity to a time of peace. Or at least peace without biters.",,
+
+cntBuriedLootStashTitan1Chest,blocks,Block,,,Buried Reaper Stash - Titan's,,
+cntBuriedLootStashTitan1ChestInsecure,blocks,Block,,,Buried Reaper Stash - Titan's,,
+
+qt_midnightstash1,items,Quest - Treasure Map,,,Reapers' Rebirth,,
+treasure_midnightstash1,items,Quest - Treasure Map,,,Reapers' Rebirth,,
+treasure_midnightstash1_offer,Quest,Challenge Info,,,"So many years wasted, so much good that could have been done. If only I could do things differently. Alas, the decisions we made, the people we are.\n\nBe better than me. Come find me, and find yourself.",,
+
+noteMidnight1,items,Quest - Note,,,Note from Midnight,,
+noteMidnight1Desc,items,Quest - Note,,,"My hand shakes as I write, but we must set aside the fear, put away our troubles, exist in the moment. The moment, unfortunately, is all that some of us have, and precious few of them remain. Take these, make your moment last longer. Purge the wasteland of the undead, help those who need it. Show the world the Reapers are still with them and that humanity isn’t damned.",,
+
+cntBuriedLootStashMidnight1Chest,blocks,Block,,,Buried Reaper Stash - Midnight's,,
+cntBuriedLootStashMidnight1ChestInsecure,blocks,Block,,,Buried Reaper Stash - Midnight's,,
+
+qt_jesterstash1,items,Quest - Treasure Map,,,Jester's Last Laugh,,
+treasure_jesterstash1,items,Quest - Treasure Map,,,Jester's Last Laugh,,
+treasure_jesterstash1_offer,Quest,Challenge Info,,,"What's buried and annoying to find?",,
+
+noteJester1,items,Quest - Note,,,Note from Jester,,
+noteJester1Desc,items,Quest - Note,,,"What do you call a box with only the highest quality weapons, tools, and the most glittery, glistening treasure? Definitely not this one.\n\nDon’t spend it all in one place. (But do use it for good. Or fun. Or both.)",,
+
+cntBuriedLootStashJester1Chest,blocks,Block,,,Buried Reaper Stash - Jester's,,
+cntBuriedLootStashJester1ChestInsecure,blocks,Block,,,Buried Reaper Stash - Jester's,,
+
+qt_bedlamstash1,items,Quest - Treasure Map,,,Bedlam's Rumble,,
+treasure_bedlamstash1,items,Quest - Treasure Map,,,Bedlam's Rumble,,
+treasure_bedlamstash1_offer,Quest,Challenge Info,,,"I buried stuff.",,
+
+noteBedlam1,items,Quest - Note,,,Note from Bedlam,,
+noteBedlam1Desc,items,Quest - Note,,,"Midnight said I had to leave a note. Here it is: stab things. Undead, or not. Whatever. Also, explosions and fire are fun.",,
+
+cntBuriedLootStashBedlam1Chest,blocks,Block,,,Buried Reaper Stash - Bedlam's,,
+cntBuriedLootStashBedlam1ChestInsecure,blocks,Block,,,Buried Reaper Stash - Bedlam's,,

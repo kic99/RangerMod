@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's RangerMod ver .3 -->
 <configs>
 <append xpath="/items">
 
@@ -6,19 +6,15 @@
 
 <item name="ammoArrowBreach">
 	<property name="Extends" value="ammoArrowSteelAP"/>
-	<property name="Tags" value="ammo,arrow"/>
 	<property name="CustomIcon" value="BreachArrow"/>
 	<!-- <property name="CustomIconTint" value="#FEDC56"/> -->
 	<property name="HoldType" value="45"/>
 	<property name="IsSticky" value="false"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
 	<property name="TintColor" value="225,173,1"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="Material" value="MresourceScrapPolymers"/>
 	<property name="Stacknumber" value="75"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="30"/>
-	<property name="UnlockedBy" value="ammoArrowBreachSchematic"/>
+	<property name="UnlockedBy" value="perkMidnightsBook3"/>
 	<effect_group name="ammoArrowBreach" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="35" tags="perkArchery"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="150" tags="perkArchery"/>
@@ -31,19 +27,15 @@
 
 <item name="ammoArrowShock">
 	<property name="Extends" value="ammoArrowSteelAP"/>
-	<property name="Tags" value="ammo,arrow"/>
 	<property name="CustomIcon" value="ShockArrow"/>
 	<!-- <property name="CustomIconTint" value="#7DF9FF"/> -->
 	<property name="HoldType" value="45"/>
 	<property name="IsSticky" value="false"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
 	<property name="TintColor" value="125,249,255"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="Material" value="MresourceScrapPolymers"/>
 	<property name="Stacknumber" value="75"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="25"/>
-	<property name="UnlockedBy" value="ammoArrowShockSchematic"/>
+	<property name="UnlockedBy" value="perkMidnightsBook6"/>
 	<effect_group name="ammoArrowShock" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="42" tags="perkArchery"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
@@ -73,19 +65,15 @@
 
 <item name="ammoArrowBulldozer">
 	<property name="Extends" value="ammoArrowSteelAP"/>
-	<property name="Tags" value="ammo,arrow"/>
 	<property name="CustomIcon" value="BulldozerArrow"/>
 	<!-- <property name="CustomIconTint" value="#d10000"/> -->
 	<property name="HoldType" value="45"/>
 	<property name="IsSticky" value="false"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
 	<property name="TintColor" value="209,0,0"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="Material" value="MresourceScrapPolymers"/>
 	<property name="Stacknumber" value="75"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="25"/>
-	<property name="UnlockedBy" value="ammoArrowBulldozerSchematic"/>
+	<property name="UnlockedBy" value="perkMidnightsBook2"/>
 	<effect_group name="ammoArrowBulldozer" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="42" tags="perkArchery"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
@@ -114,19 +102,15 @@
 
 <item name="ammoArrowSticky">
 	<property name="Extends" value="ammoArrowSteelAP"/>
-	<property name="Tags" value="ammo,arrow"/>
 	<property name="CustomIcon" value="StickyArrow"/>
 	<!-- <property name="CustomIconTint" value="#66f221"/> -->
 	<property name="HoldType" value="45"/>
 	<property name="IsSticky" value="false"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
 	<property name="TintColor" value="102,242,33"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="Material" value="MresourceScrapPolymers"/>
 	<property name="Stacknumber" value="75"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="25"/>
-	<property name="UnlockedBy" value="ammoArrowStickySchematic"/>
+	<property name="UnlockedBy" value="perkMidnightsBook2"/>
 	<property class="Action1">
 		<property name="Explosion.ParticleIndex" value="7"/>
 	</property>
@@ -158,27 +142,25 @@
 
 <item name="ammoArrowTalon">
 	<property name="Extends" value="ammoArrowSteelAP"/>
-	<property name="Tags" value="ammo,arrow"/>
 	<property name="CustomIcon" value="TalonArrow"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
 	<property name="TintColor" value="20,25,20"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="Material" value="MresourceScrapPolymers"/>
 	<property name="Stacknumber" value="75"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="40"/>
-	<property name="UnlockedBy" value="perkArchery"/>
+	<property name="UnlockedBy" value="perkMidnightsBook4"/>
 	<effect_group name="ammoArrowTalon" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="52" tags="perkArchery"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="60" tags="perkArchery"/>
 		<passive_effect name="ProjectileStickChance" operation="base_set" value=".3"/>
+        <passive_effect name="TargetArmor" operation="perc_add" value="-.5"/><display_value name="dTargetArmor" value="-.5"/>
 		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" tags="zombie,animal" buff="TalonBleed"/>
-		</effect_group>
+        <!--<requirement name="EntityTagCompare" target="other" tags="radiated"/>
+            <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffRadiatedRegenBlock"/>-->
+	</effect_group>
 
-
-	<effect_group name="perkPenetrator" tiered="false">
+	<effect_group name="PerkPenetrator" tiered="false">
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.05" tags="perkArchery">
 			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="0"/></passive_effect>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.15" tags="perkArchery">
@@ -193,15 +175,99 @@
 
 </item>
 
+    
+<item name="ammoArrowTitan">
+	<property name="Extends" value="ammoArrowSteelAP"/>
+	<property name="CustomIcon" value="TitanArrow"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
+	<property name="TintColor" value="0,0,255"/>
+	<property name="Stacknumber" value="75"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="40"/>
+	<property name="UnlockedBy" value="perkMidnightsBook7"/>
+	<effect_group name="ammoArrowTitan" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="72" tags="perkArchery"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
+        <passive_effect name="TargetArmor" operation="perc_add" value="-.65"/><display_value name="dTargetArmor" value="-.65"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="75" tags="perkArchery"/>
+	</effect_group>
+
+</item>    
+    
+    
+<item name="ammoArrowImmolation">
+	<property name="Extends" value="ammoArrowSteelAP"/>
+	<property name="CustomIcon" value="ImmolationArrow"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Arrows/arrow_flamingPrefab.prefab"/>
+	<property name="TintColor" value="255,165,0"/>
+	<property name="Stacknumber" value="75"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="40"/>
+	<property name="UnlockedBy" value="perkMidnightsBook6"/>
+    <property name="IsSticky" value="false"/>
+	<effect_group name="ammoArrowImmolation" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="38" tags="perkArchery"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="48" tags="perkArchery"/>
+	</effect_group>
+    <!-- <property class="Action1">
+		<property name="Explosion.ParticleIndex" value="10"/>
+        <property name="Explosion.Duration" value="8"/>
+        <property name="Explosion.RadiusBlocks" value="1"/>
+        <property name="Explosion.RadiusEntities" value="1"/>
+        <property name="Explosion.BlastPower" value="35"/>
+	</property> -->
+	<effect_group name="ammoArrowImmolation" tiered="false">
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="otherAOE" target_tags="zombie,animal" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="16">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="otherAOE" target_tags="zombie,animal" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="17">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="NotEquals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="otherAOE" target_tags="zombie,animal" range="2.7" buff="buffBurningMolotov"/>
+
+		<display_value name="dExDamageFire" value="250"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="5" tags="perkDemolitionsExpert"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkDemolitionsExpert"/>
+		<display_value name="dExRadius" value="3"/>
+		<display_value name="dDuration" value="16"/>
+    </effect_group>
+
+</item>
+    
+
+<item name="ammoArrowJester">
+	<property name="Extends" value="ammoArrowSteelAP"/>
+	<property name="CustomIcon" value="JesterArrow"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrow_steelPrefab.prefab"/>
+	<property name="TintColor" value="47,32,66"/>
+	<property name="Stacknumber" value="75"/> <!-- STK ammo low -->
+    <property name="EconomicValue" value="40"/>
+	<property name="UnlockedBy" value="perkMidnightsBook1"/>
+	<property name="IsSticky" value="false"/>
+	<property class="Action1">
+		<property name="Explosion.ParticleIndex" value="12"/>
+	</property>
+	<effect_group name="ammoArrowJester" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="38" tags="perkArchery"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkArchery"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="48" tags="perkArchery"/>
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" fireOneBuff="true" target="other" tags="zombie,animal" buff="twitch_bighead,buffMakeitBigger,buffBurningFlamingArrow,buffShocked,TalonBleed" weights="2,1,5,4,3"/> <!-- 4,2,2,1 when dance was listed which doesn't work anyway -->
+    </effect_group>
+
+</item>
+
+<!-- arrows above; spears below -->
+
+
 <item name="meleeStabbySpear">
 	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="18"/>
-	<property name="CustomIcon" value="StabbySpear"/>
+	<property name="CustomIcon" value="ReaperSpearSteel"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab"/>
 	<property name="Material" value="MmeleeWpnSpearParts"/><property name="Weight" value="6"/>
 	<property name="EconomicValue" value="700"/>
-	<property name="RepairTools" value="resourceWood"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
@@ -211,6 +277,9 @@
 	<property name="Group" value="Ammo/Weapons,Basics"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
     <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
+	<effect_group tiered="false">
+		<passive_effect name="JumpStrength" operation="perc_add" value=".75"/>
+	</effect_group>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Hitmask_override" value="Melee"/>
@@ -227,7 +296,9 @@
 		</property>
 		<property class="GrazeSounds">
             <property name="Override0" value="organic" param1="metalgrazeorganic"/>
-		</property>	</property>
+		</property>
+	</property>
+	
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Sphere" value=".14"/>
@@ -235,13 +306,100 @@
 		<property name="UsePowerAttackAnimation" value="true"/>
 	</property>
 		<effect_group name="meleeStabbySpear">
-		<passive_effect name="EntityDamage" operation="base_set" value="18.6" tags="perkJavelinMaster"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="21.6" tags="perkJavelinMaster"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkJavelinMaster"/>
 		<display_value name="dTargetArmor" value="-.5"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="9" tags="perkJavelinMaster"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkJavelinMaster"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="22.4" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="20.4" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="317,592" tier="1,6" tags="perkJavelinMaster"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
+		<passive_effect name="MaxRange" operation="base_set" value="3.2" tags="perkJavelinMaster"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
+		<!-- <passive_effect name="JumpStrength" operation="perc_add" value=".39" tags="perkJavelinMaster"/> -->
+		<!--	<requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="Equals" value="5"/></passive_effect>	-->
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+	</effect_group>
+	<effect_group name="PowerAttack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="30.9" tags="secondary"/>
+	</effect_group>
+	
+</item>
+
+
+
+<item name="meleeStabbySpearIron">
+	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="HoldType" value="18"/>
+	<property name="CustomIcon" value="ReaperSpearIron"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_iron_Prefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons,Basics"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+    <property name="UnlockedBy" value="perkJavelinMaster,meleeWpnSpearT1IronSpearSchematic"/>
+	<effect_group tiered="false">
+		<passive_effect name="JumpStrength" operation="perc_add" value=".75"/>
+	</effect_group>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="spear_fire"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".32"/>
+		<property name="SwingDegrees" value="10"/>
+		<property name="SwingAngle" value="20"/>
+		<property class="HitSounds">
+            <property name="Override0" value="organic" param1="metalstaborganic"/>
+		</property>
+		<property class="GrazeSounds">
+            <property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".14"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+	</property>
+		<effect_group name="meleeStabbySpearIron">
+		<passive_effect name="EntityDamage" operation="base_set" value="14.4" tags="perkJavelinMaster"/> <!-- meleeWpnSpearT1IronSpear -->
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.4" tags="perkJavelinMaster"/><display_value name="dTargetArmor" value="-.4"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="7" tags="perkJavelinMaster"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkJavelinMaster"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="20.4" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="212,423" tier="1,6" tags="perkJavelinMaster"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
 		<passive_effect name="MaxRange" operation="base_set" value="3.2" tags="perkJavelinMaster"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
@@ -267,19 +425,823 @@
 	<effect_group name="PowerAttack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1.1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="36.9" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="30.9" tags="secondary"/>
+	</effect_group>
+</item>
+
+
+<item name="meleeStabbySpearStone">
+	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="HoldType" value="18"/>
+	<property name="CustomIcon" value="ReaperSpearStone"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_stone_Prefab.prefab"/>
+	<property name="Material" value="Mstone"/>
+	<property name="EconomicValue" value="175"/>
+	<property name="RepairTools" value="resourceRockSmall"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons,Basics"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+	<effect_group tiered="false">
+		<passive_effect name="JumpStrength" operation="perc_add" value=".75"/>
+	</effect_group>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="Sphere" value=".15"/> <!-- limit to 0.15, else the sphere cast can overlap the target already -->
+		<property name="Sound_start" value="spear_fire"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".32"/>
+		<property name="SwingDegrees" value="10"/>
+		<property name="SwingAngle" value="20"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalstaborganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".14"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+	</property>
+		<effect_group name="meleeStabbySpearStone">
+		<passive_effect name="EntityDamage" operation="base_set" value="11.3" tags="perkJavelinMaster"/> <!-- meleeWpnSpearT0StoneSpear -->
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkJavelinMaster"/><display_value name="dTargetArmor" value="-.3"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkJavelinMaster"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="58" tags="perkJavelinMaster"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="19.4" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="60,88" tier="1,6" tags="perkJavelinMaster"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
+		<passive_effect name="MaxRange" operation="base_set" value="3.2" tags="perkJavelinMaster"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+	</effect_group>
+	<effect_group name="PowerAttack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="30.9" tags="secondary"/>
+	</effect_group>
+</item>
+
+
+<item name="BowTalonBow">
+	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedBow"/>
+	<property name="HoldType" value="68"/> <!-- "Sway Off" is hardcoded for hold types 26, 27, 53 -->
+	<property name="CustomIcon" value="TalonBow"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/AdvancedBow/AdvancedWoodenBow/AdvancedWoodenBowPrefab.prefab"/>
+	<property name="Material" value="Mwood"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="EconomicValue" value="750"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="CrosshairOnAim" value="true"/> <!-- aimTest -->
+	<property name="CrosshairUpAfterShot" value="false"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons,Basics,Ranged Weapons"/>
+	<!-- <property name="UnlockedBy" value="perkMidnightsBook7"/> -->
+	<property class="Action0">
+		<property name="Class" value="Catapult"/>
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Magazine_items" value="ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding,ammoArrowBreach,ammoArrowShock,ammoArrowBulldozer,ammoArrowSticky,ammoArrowTalon,ammoArrowJester,ammoArrowImmolation,ammoArrowTitan"/>
+		<!-- <property name="Reload_time" value=".9"/> -->
+		<property name="Sound_start" value="bow2_fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="bow_unquiver"/>
+		<property name="Sound_draw" value="bow2_draw"/>
+		<property name="Sound_cancel" value="bow_fire_cancel"/>
+        <property name="AutoReload" value="false"/>
+		<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
+		<property name="Max_strain_time" value=".5"/>
+		<property name="ScopeOffset" value="-.00062,.088,.065"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="40"/>
+		<property name="Zoom_max_in" value="40"/>
+	</property>
+	<effect_group name="BowTalonBow">
+		<passive_effect name="RunSpeed" operation="perc_add" value=".05"/><display_value name="dRunSpeed" value=".05"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="25" tags="perkArchery"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkArchery"/> <!-- random effective rng -->
+		<passive_effect name="MaxRange" operation="base_set" value="100" tags="perkArchery"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="2" tags="perkArchery">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="MagazineSize" operation="base_set" value="3" tags="perkArchery">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="4"/></passive_effect>	
+		<passive_effect name="MagazineSize" operation="base_set" value="4" tags="perkArchery">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="5"/></passive_effect>	
+		<!-- remove the perk checks and change the magazine to X if you want to always knock X arrows. go crazy. it's your game. -->
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkArchery"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.6" tier="2,6" tags="perkArchery"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkArchery"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkArchery"/> <!-- tier bonus -->
+		<passive_effect name="ProjectileVelocity" operation="perc_add" value="-.08,.12" tags="perkArchery"/> <!-- random Veloc -->
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkArchery"/> <!-- random DegMax -->
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkArchery"/> <!-- random WeaponHandling -->
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.4" tags="perkArchery"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.4" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".20" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".5" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.2" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.8" tags="perkArchery"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2" tags="perkArchery"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1.1" tags="perkArchery"/> <!-- crosshair reset speed -->
+		
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150" tags="perkArchery,bowDrawPenalty"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9" tags="perkArchery"/>
+
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".3" tags="perkArchery"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".3" tags="perkArchery"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.1" tags="perkArchery"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".1" tags="perkArchery"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="240,450" tier="1,6" tags="perkArchery"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,3,4,5" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+	</effect_group>
+	<effect_group name="sneak damage bonus">
+		<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+		<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<passive_effect name="DamageBonus" operation="base_add" value="2"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="perkArchery"/>
+			<display_value name="dEntityDamageSneak" value="2.25"/>
+	</effect_group>
+</item>
+
+
+<!-- Titan bow; set Burst to 2, massive draw time -->
+<item name="BowTitanBow">
+	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedBow"/>
+	<property name="HoldType" value="53"/> <!-- "Sway Off" is hardcoded for hold types 26, 27, 53 -->
+	<property name="CustomIcon" value="TitanBow"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/advancedBow/advancedCompoundBow/advancedCompoundBowPrefab.prefab"/>
+	<property name="Material" value="Mwood"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="EconomicValue" value="1500"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="CrosshairOnAim" value="true"/> <!-- aimTest -->
+	<property name="CrosshairUpAfterShot" value="false"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons,Basics,Ranged Weapons"/>
+	<!-- <property name="UnlockedBy" value="perkMidnightsBook7"/> -->
+	<property class="Action0">
+		<property name="Class" value="Catapult"/>
+		<!-- Catapult might not be the best name for it but it can also be used for a slingshot -->
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Magazine_items" value="ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding,ammoArrowBreach,ammoArrowShock,ammoArrowBulldozer,ammoArrowSticky,ammoArrowTalon,ammoArrowJester,ammoArrowImmolation,ammoArrowTitan"/>
+		<!-- <property name="Reload_time" value=".9"/> -->
+		<property name="Sound_start" value="bow3_fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="bow_unquiver"/>
+		<property name="Sound_draw" value="bow3_draw"/>
+		<property name="Sound_cancel" value="bow_fire_cancel"/>
+		<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
+		<property name="Max_strain_time" value=".43"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="30"/>
+		<property name="Zoom_max_in" value="30"/>
+	</property>
+	<effect_group name="BowTitanBow">
+		<passive_effect name="ProjectileVelocity" operation="perc_add" value=".3" tags="perkArchery"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="35" tags="perkArchery"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkArchery"/> <!-- random effective rng -->
+		<passive_effect name="EntityDamage" operation="base_add" value="14.15" tags="perkArchery"/> <!-- damage offset -->
+		<passive_effect name="MaxRange" operation="base_set" value="100" tags="perkArchery"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="2" tags="perkArchery">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="5"/></passive_effect>
+			<!-- knock 2 arrows at archery 5 -->
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkArchery"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkArchery"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkArchery"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkArchery"/> <!-- tier bonus -->
+		<passive_effect name="ProjectileVelocity" operation="perc_add" value="-.08,.08" tags="perkArchery"/> <!-- random Veloc -->
+
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkArchery"/> <!-- random DegMax -->
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkArchery"/> <!-- random WeaponHandling -->
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.67" tags="perkArchery"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.67" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".15" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2" tags="perkArchery"/>
+
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.5" tags="perkArchery"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".9" tags="perkArchery"/> <!-- crosshair reset speed -->
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="30" tags="perkArchery,bowDrawPenalty"/>
+		<!-- slow down the bow because it's going to hit like a freight train with two arrows -->
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="2" tags="perkArchery">
+			<requirement name="ProgressionLevel" progression_name="perkArchery" operation="Equals" value="5"/></passive_effect>
+			<!-- fire 2 arrows at once with archery 5 -->
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1.5" tags="perkArchery"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.5" tags="perkArchery"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".5" tags="perkArchery"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6" tags="perkArchery"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="2" tags="perkArchery"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,3,4,5" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+	</effect_group>
+	<effect_group name="sneak damage bonus">
+		<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+		<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<!--<passive_effect name="DamageBonus" operation="base_add" value="1.5"/>-->
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.0" tags="perkArchery"/>
+			<display_value name="dEntityDamageSneak" value="1.0"/>
 	</effect_group>
 </item>
 
 
 
+<item name="gunBowReaperInit">
+	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedBow"/>
+	<property name="HoldType" value="27"/> <!-- "Sway Off" is hardcoded for hold types 26, 27, 53 -->
+	<property name="CustomIcon" value="ReaperBow"/>
+	<property name="DescriptionKey" value="ReaperBowDesc"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/WoodenBowPrefab.prefab"/>
+	<property name="Material" value="Mwood"/>
+	<property name="RepairTools" value="resourceWood"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="CrosshairOnAim" value="true"/> <!-- aimTest -->
+	<property name="CrosshairUpAfterShot" value="false"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons,Basics,Ranged Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="Catapult"/>
+		<!-- Catapult might not be the best name for it but it can also be used for a slingshot -->
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Magazine_items" value="ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding,ammoArrowBreach,ammoArrowShock,ammoArrowBulldozer,ammoArrowSticky,ammoArrowTalon,ammoArrowJester,ammoArrowImmolation,ammoArrowTitan"/>
+		<!-- <property name="Reload_time" value=".9"/> -->
+		<property name="Sound_start" value="bow_fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="bow_unquiver"/>
+		<property name="Sound_draw" value="bow_draw"/>
+		<property name="Sound_cancel" value="bow_fire_cancel"/>
+		<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
+		<property name="Max_strain_time" value=".5"/>
+		<property name="ScopeOffset" value="-.00062,.088,.065"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="50"/>
+		<property name="Zoom_max_in" value="50"/>
+	</property>
+	<effect_group name="gunBowReaperInit">
+		<passive_effect name="ProjectileVelocity" operation="perc_add" value=".1" tags="perkArchery"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="23" tags="perkArchery"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-5" tags="perkArchery"/> <!-- damage offset -->
+		<passive_effect name="MaxRange" operation="base_set" value="100" tags="perkArchery"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1" tags="perkArchery"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.6" tier="2,6" tags="perkArchery"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkArchery"/> <!-- tier bonus -->
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.6" tags="perkArchery"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.6" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".26" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkArchery"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2" tags="perkArchery"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2" tags="perkArchery"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".9" tags="perkArchery"/> <!-- crosshair reset speed -->
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="85" tags="perkArchery,bowDrawPenalty"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9" tags="perkArchery"/>
+
+		<!--
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="15"/>
+		-->
+		<!-- <passive_effect name="AttacksPerMinute" operation="base_set" value="166"/>
+
+		AttacksPerMinute, RoundsPerMinute  do NOT affect bow rate of fire
+		-->
+
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".5" tags="perkArchery"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".5" tags="perkArchery"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2" tags="perkArchery"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2" tags="perkArchery"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="60,150" tier="1,6" tags="perkArchery"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkArchery"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,3,4,5" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+	</effect_group>
+	<effect_group name="sneak damage bonus">
+		<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+		<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<passive_effect name="DamageBonus" operation="base_add" value="2"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="perkArchery"/>
+			<display_value name="dEntityDamageSneak" value="2"/>
+	</effect_group>
+</item>
 
 
+<item name="BedlamsTurningPoint">
+	<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,perkElectrocutioner"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="HoldType" value="18"/>
+	<property name="CustomIcon" value="BedlamsTurningPoint"/>
+	<property name="DescriptionKey" value="BedlamsTurningPointDesc"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab"/>
+	<property name="Material" value="MmeleeWpnSpearParts"/><property name="Weight" value="6"/>
+	<property name="EconomicValue" value="1400"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons,Basics"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+	<effect_group tiered="false">
+		<passive_effect name="JumpStrength" operation="perc_add" value=".75"/>
+	</effect_group>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="spear_fire"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".32"/>
+		<property name="SwingDegrees" value="10"/>
+		<property name="SwingAngle" value="20"/>
+		<property class="HitSounds">
+            <property name="Override0" value="organic" param1="metalstaborganic"/>
+		</property>
+		<property class="GrazeSounds">
+            <property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".14"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+	</property>
+		<effect_group name="BedlamsTurningPoint">
+		<passive_effect name="EntityDamage" operation="base_set" value="25.6" tags="perkJavelinMaster"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkJavelinMaster"/>
+		<display_value name="dTargetArmor" value="-.5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="9" tags="perkJavelinMaster"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="65" tags="perkJavelinMaster"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="18.4" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="317,592" tier="1,6" tags="perkJavelinMaster"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
+		<passive_effect name="MaxRange" operation="base_set" value="3.2" tags="perkJavelinMaster"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
 
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,3,4,5" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 
-<!-- schematics in this sections; yes, no Talon schematic is intentional. go upgrade your archery skill -->
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
 
-<item name="ammoArrowBreachSchematic">
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group name="PowerAttack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.2" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="30.9" tags="secondary"/>
+	</effect_group>
+    	
+	<effect_group name="apply damage buff, BedlamsTurningPoint">
+		<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="GTE" value="40"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0"/>
+
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="other" duration="2.5" force="350">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="!HasBuff" buff="buffDrugNerdTats"/>
+				<requirement name="!EntityTagCompare" target="other" tags="trader"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="2.5" force="350">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="!HasBuff" buff="buffDrugNerdTats"/>
+				<requirement name="!EntityTagCompare" target="other" tags="trader"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="otherAOE" range="1.1" target_tags="zombie,animal" duration="2.5" force="350">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="HasBuff" buff="buffDrugNerdTats"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="otherAOE" range="1.1" target_tags="zombie,animal" duration="2.5" force="350">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="HasBuff" buff="buffDrugNerdTats"/>
+			</triggered_effect>
+
+			<!-- Set duration -->
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="5">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="1"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="6">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="2"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="7">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="3"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="8">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="4"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="9">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="5"/></triggered_effect>
+
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="5">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="1"/></triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="6">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="2"/></triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="7">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="3"/></triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="8">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="4"/></triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar=".buffShockedDurationStart" operation="set" value="9">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="5"/></triggered_effect>
+
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffShocked"/>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffShocked"/>
+
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="otherAOE" range="1.1" target_tags="zombie,animal" buff="buffShocked">
+				<requirement name="HasBuff" buff="buffDrugNerdTats"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="otherAOE" range="1.3" target_tags="zombie,animal" buff="buffShocked">
+				<requirement name="HasBuff" buff="buffDrugNerdTats"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="RemovePart" part="Sparks"/>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="RemovePart" part="Sparks"/>
+
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" cvar=".stunBatonCharge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" cvar=".stunBatonCharge" operation="set" value="0"/>
+	</effect_group>
+
+<!--
+needed?
+			<requirement name="ItemHasTags" tags="perkElectrocutioner"/>
+
+			<requirement name="EntityTagCompare" target="other" tags="human,zombie,animal"/>
+-->
+
+	<effect_group name="increase charges">
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" cvar=".stunBatonCharge" operation="add" value="1">
+			<requirement name="IsAlive" target="other"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" cvar=".stunBatonCharge" operation="add" value="2">
+			<requirement name="IsAlive" target="other"/>
+		</triggered_effect>
+
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" cvar=".stunBatonCharge" operation="add" value="4">
+			<requirement name="ProgressionLevel" progression_name="perkTechJunkie6BatonCharge" operation="Equals" value="1"/>
+			<requirement name="IsAlive" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" cvar=".stunBatonCharge" operation="add" value="4">
+			<requirement name="ProgressionLevel" progression_name="perkTechJunkie6BatonCharge" operation="Equals" value="1"/>
+			<requirement name="IsAlive" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+		</triggered_effect>
+
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="LT" value="40"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="GTE" value="4"/>
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="LT" value="40"/>
+		</triggered_effect>
+
+		<!-- the attack that applies the last +1 charge can not immediately trigger the effect -->
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".stunBatonCharge" operation="set" value="40">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" cvar=".stunBatonCharge" operation="set" value="40">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="GTE" value="4"/>
+		</triggered_effect>
+
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit1">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit2">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="1"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit3">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="2"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit4">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="3"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionRayHit" action="PlaySound" sound="stunbaton_hit5">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="GTE" value="4"/></triggered_effect>
+
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit1">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit2">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="1"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit3">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="2"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit4">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="3"/></triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit5">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="GTE" value="4"/></triggered_effect>
+
+		<!--<triggered_effect trigger="onSelfAttackedOther" action="PlaySound" sound="stunbaton_hit5">
+			<requirement name="CVarCompare" cvar=".stunBatonCharge" operation="Equals" value="5"/>
+		</triggered_effect>-->
+	</effect_group>	
+	
+</item>
+    
+<item name="BedlamsCage">
+	<property name="Extends" value="armorIronMaster" param1="CustomIcon"/>
+	<property name="Tags" value="head,armor,armorHead,heavyArmor,heavyArmorPenalty,canHaveCosmetic,heavyArmorDeg"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="CustomIcon" value="BedlamsCage"/>
+	<property name="DescriptionKey" value="BedlamsCageDesc"/>
+	<effect_group name="iron armor">
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,3,4,5" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<!-- <passive_effect name="ElementalDamageResist" operation="base_add" value="5" tags="toxic"/> gas mask effect -->
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="9.25,12.25"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="1,4.75" tier="1,6"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="7.25,10.25" tags="heat,electrical"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="1,4.75" tier="1,6"/>
+		<passive_effect name="BuffResistance" operation="base_add" value="0.055,0.068" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,critResistDisplay"/>
+        <passive_effect name="BuffResistance" operation="base_add" value="0.15" tags="buffInfectionCatch"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="heavyArmorDeg"/>
+		<passive_effect name="Mobility" operation="perc_add" value="-.06"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.045" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.09" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.9"/>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".2"/><display_value name="dNoiseMultiplier" value=".2"/>
+        <passive_effect name="BarteringBuying" operation="base_add" value=".1"/>
+		<passive_effect name="BarteringSelling" operation="base_add" value=".1"/>
+	</effect_group>
+
+	<property class="UMA">
+		<property name="Mesh" value="armor_heavy_bandit_gasmask"/>
+		<property name="Overlay0" value="bandit_armor"/>
+		<property name="Layer" value="middle"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask7" value="Eyes" param1="inner"/>
+		<property name="Mask8" value="Eyes" param1="middle"/>
+		<property name="Mask9" value="Eyes" param1="outer"/>
+	</property>
+</item>    
+
+<item name="MidnightsShroud"> <!-- item name directly referenced in the code -->
+	<property name="Tags" value="upperbody,lowerbody,chest,clothing,pocketMod"/>
+	<property name="DisplayType" value="clothing"/>
+	<property name="CustomIcon" value="MidnightsShroud"/>
+    <property name="CustomIconTint" value="35,0,65"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Waterproof" value=".55"/>
+	<property name="Material" value="Mleather"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Weight" value="90"/>
+	<property name="EconomicValue" value="675"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="DescriptionKey" value="MidnightsShroudDesc"/>
+	<property name="Group" value="Clothing"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property class="UMA">
+		<property name="Mesh" value="clothes_leather_duster"/>
+		<property name="Overlay0" value="clothes_leather_duster"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="Jacket"/>
+		<property name="Mask0" value="hands" param1="outer"/>
+		<property name="Mask1" value="chest" param1="middle"/>
+		<property name="Overlay0Tint" value="35,0,65"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="1"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="HypothermalResist" operation="base_add" value="17.5,21.5"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="21.5,26.5"/>
+        <passive_effect name="PhysicalDamageResist" operation="base_add" value="2.1,3.3"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="2.1,3.3" tags="heat,electrical"/>
+        <passive_effect name="LightMultiplier" operation="perc_add" value="-.1"></passive_effect>
+		<passive_effect name="BuffResistance" operation="base_add" value="0.041" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,critResistDisplay"/>
+	</effect_group>
+</item>
+
+<item name="MidnightsJudgment">
+	<property name="Tags" value="wweapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+    <property name="CustomIcon" value="MidnightsJudgment"/>
+	<property name="HoldType" value="44"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="900"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="true"/> <!-- aimTest -->
+	<property name="CrosshairUpAfterShot" value="true"/> <!-- aimTest -->
+	<property name="Sound_Sight_In" value="pistol_sight_in"/>
+	<property name="Sound_Sight_Out" value="pistol_sight_out"/>
+	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
+	<property name="Group" value="Ammo/Weapons,Ranged Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="LightValue" value=".45"/>
+	<property name="EconomicValue" value="900"/>
+	<property name="ShowQuality" value="true"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
+        <property name="Reload_time" value="3.1"/>
+		<property name="Sound_start" value="pump_shotgun_fire"/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="pistol_reload"/>
+		<property name="AutoReload" value="false"/>
+		<property name="Particles_muzzle_fire" value="gunfire_shotgun"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_shotgun_fpv"/>
+		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
+		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
+	</property>
+
+	<effect_group name="MidnightsJudgment">
+		<passive_effect name="MaxRange" operation="base_set" value="40" tags="perkBoomstick"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="12" tags="perkBoomstick,perkGunslinger"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="80" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick,perkGunslinger"/>
+
+		<passive_effect name="MagazineSize" operation="base_set" value="4" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1.2" tags="perkGunslinger"/> 2s
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,3,4,5" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="EntityDamage" operation="base_add" value="-6.4" tags="perkBoomstick"/> <!-- damage offset -->
+		<passive_effect name="BlockDamage" operation="base_add" value="-2.1" tags="perkBoomstick"/> <!-- damage offset -->
+
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBoomstick,perkGunslinger"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBoomstick,perkGunslinger"/> <!-- tier bonus -->
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2" tags="perkBoomstick,perkGunslinger"/>
+
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2.5" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2.5" tags="perkBoomstick,perkGunslinger"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1.7" tags="perkGunslinger"/> <!-- crosshair reset speed -->
+
+		<passive_effect name="DegradationMax" operation="base_set" value="150,300" tier="1,6" tags="perkBoomstick,perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick,perkGunslinger"/>
+	</effect_group>
+</item>    
+
+<item name="JestersDancingShoes">
+	<property name="Extends" value="armorLeatherBoots"/>
+	<property name="Tags" value="lowerbody,feet,clothing,noMods"/>
+    <property name="CustomIcon" value="JestersDancingShoes"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="DisplayType" value="clothing"/>
+	<property name="DescriptionKey" value="JestersDancingShoesDesc"/>
+	<property name="TintColor" value="27,255,32"/>
+	<property name="Weight" value="25"/>
+	<property name="Encumbrance" value=".02"/>
+	<property name="ShowQuality" value="false"/>
+	<property name="Group" value="Clothing"/>
+	<property class="UMA">
+		<property name="Mesh" value="clothes_dress_shoes"/>
+		<property name="Overlay0" value="unisex_clothes_dress_shoes"/>
+		<property name="Overlay0Tint" value="27,255,32"/>
+	</property>
+	<property name="EconomicValue" value="200"/>
+	<effect_group tiered="false">
+        <passive_effect name="RunSpeed" operation="perc_add" value=".15"/><display_value name="dRunSpeed" value=".15"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+        <passive_effect name="Mobility" operation="perc_add" value=".05"/>
+        <passive_effect name="StaminaChangeOT" operation="perc_add" value=".021" tags="walking"/>
+        <passive_effect name="StaminaChangeOT" operation="perc_add" value=".0562" tags="running"/>
+        <display_value name="dStaminaChangeOT" value=".0562"/>
+		<passive_effect name="HypothermalResist" operation="base_add" value="3.8,6.2"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="4.5,5.5"/>
+	</effect_group>
+</item>    
+    
+    
+<!-- these schematics aren't used; arrow recipes are now given via the books; these are here for historical purposes -->
+
+<!--<item name="ammoArrowBreachSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="BreachArrow"/>
@@ -325,7 +1287,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
-
+-->
 
 
 <item name="modGunBowUpgradedCamsSchematic">
@@ -364,13 +1326,38 @@
 </item>
 
 
+<!-- ### bow schematics; you'll have to remove the comments on the recipe and cheat them into the game if you want them ### -->
+
+<!--<item name="BowTalonBowSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="BowTalonBow"/>
+	<property name="Unlocks" value="BowTalonBow"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="BowTalonBow" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="BowTitanBowSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="BowTitanBow"/>
+	<property name="Unlocks" value="BowTitanBow"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="BowTitanBow" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+-->
+
 <!-- arrow bundles here -->
 
 <item name="ammoBundleArrowBreach">
 	<property name="Extends" value="ammoBundleArrowStone"/>
 	<property name="CustomIcon" value="BreachArrow"/>
 	<property name="EconomicValue" value="2000"/>
-	<property name="UnlockedBy" value="perkRangersComplete"/>
+	<property name="UnlockedBy" value="perkMidnightsBookComplete"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoArrowBreach"/>
 		<property name="Create_item_count" value="75"/>
@@ -381,7 +1368,7 @@
 	<property name="Extends" value="ammoBundleArrowStone"/>
 	<property name="CustomIcon" value="ShockArrow"/>
 	<property name="EconomicValue" value="1800"/>
-	<property name="UnlockedBy" value="perkRangersComplete"/>
+	<property name="UnlockedBy" value="perkMidnightsBookComplete"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoArrowShock"/>
 		<property name="Create_item_count" value="75"/>
@@ -392,7 +1379,7 @@
 	<property name="Extends" value="ammoBundleArrowStone"/>
 	<property name="CustomIcon" value="BulldozerArrow"/>
 	<property name="EconomicValue" value="1800"/>
-	<property name="UnlockedBy" value="perkRangersComplete"/>
+	<property name="UnlockedBy" value="perkMidnightsBookComplete"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoArrowBulldozer"/>
 		<property name="Create_item_count" value="75"/>
@@ -403,7 +1390,7 @@
 	<property name="Extends" value="ammoBundleArrowStone"/>
 	<property name="CustomIcon" value="StickyArrow"/>
 	<property name="EconomicValue" value="1800"/>
-	<property name="UnlockedBy" value="perkRangersComplete"/>
+	<property name="UnlockedBy" value="perkMidnightsBookComplete"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoArrowSticky"/>
 		<property name="Create_item_count" value="75"/>
@@ -414,40 +1401,255 @@
 	<property name="Extends" value="ammoBundleArrowStone"/>
 	<property name="CustomIcon" value="TalonArrow"/>
 	<property name="EconomicValue" value="2500"/>
-	<property name="UnlockedBy" value="perkArchery"/>
+	<property name="UnlockedBy" value="perkMidnightsBookComplete"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoArrowTalon"/>
 		<property name="Create_item_count" value="75"/>
 	</property>
 </item>
 
+<item name="ammoBundleArrowImmolation">
+	<property name="Extends" value="ammoBundleArrowStone"/>
+	<property name="CustomIcon" value="ImmolationArrow"/>
+	<property name="EconomicValue" value="2500"/>
+	<property name="UnlockedBy" value="perkMidnightsBookComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoArrowImmolation"/>
+		<property name="Create_item_count" value="75"/>
+	</property>
+</item>    
+    
+    
+<item name="ammoBundleArrowJester">
+	<property name="Extends" value="ammoBundleArrowStone"/>
+	<property name="CustomIcon" value="JesterArrow"/>
+	<property name="EconomicValue" value="1800"/>
+	<property name="UnlockedBy" value="perkMidnightsBookComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoArrowJester"/>
+		<property name="Create_item_count" value="75"/>
+	</property>
+</item>
+    
+    
+<item name="ammoBundleArrowTitan">
+	<property name="Extends" value="ammoBundleArrowStone"/>
+	<property name="CustomIcon" value="TitanArrow"/>
+	<property name="EconomicValue" value="2500"/>
+	<property name="UnlockedBy" value="perkMidnightsBookComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammoArrowTitan"/>
+		<property name="Create_item_count" value="75"/>
+	</property>
+</item>
+    
+    
+<!-- ###Books### -->    
+    
+    
+<item name="BookMidnightsBook1"> <!-- first book -->
+	<property name="Extends" value="bookFiremansAlmanacHeat"/>
+	<property name="CustomIcon" value="MidnightsSecrets"/>
+	<property name="DescriptionKey" value="perkMidnightsBook1LongDesc"/>
+	<property name="Unlocks" value="perkMidnightsBook1"/>
+	<property name="Group" value="Books,Mods,BooksOnly"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBook1" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBookComplete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+</item>
+<item name="BookMidnightsBook2">
+	<property name="Extends" value="BookMidnightsBook1"/>
+	<property name="DescriptionKey" value="perkMidnightsBook2LongDesc"/>
+	<property name="Unlocks" value="perkMidnightsBook2"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBook2" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBookComplete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+</item>
+<item name="BookMidnightsBook3">
+	<property name="Extends" value="BookMidnightsBook1"/>
+	<property name="DescriptionKey" value="perkMidnightsBook3LongDesc"/>
+	<property name="Unlocks" value="perkMidnightsBook3"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBook3" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBookComplete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+</item>
+<item name="BookMidnightsBook4">
+	<property name="Extends" value="BookMidnightsBook1"/>
+	<property name="DescriptionKey" value="perkMidnightsBook4LongDesc"/>
+	<property name="Unlocks" value="perkMidnightsBook4"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBook4" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBookComplete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+</item>
+<item name="BookMidnightsBook5">
+	<property name="Extends" value="BookMidnightsBook1"/>
+	<property name="DescriptionKey" value="perkMidnightsBook5LongDesc"/>
+	<property name="Unlocks" value="perkMidnightsBook5"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBook5" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBookComplete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+</item>
+<item name="BookMidnightsBook6">
+	<property name="Extends" value="BookMidnightsBook1"/>
+	<property name="DescriptionKey" value="perkMidnightsBook6LongDesc"/>
+	<property name="Unlocks" value="perkMidnightsBook6"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBook6" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBookComplete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+</item>
+<item name="BookMidnightsBook7">
+	<property name="Extends" value="BookMidnightsBook1"/>
+	<property name="DescriptionKey" value="perkMidnightsBook7LongDesc"/>
+	<property name="Unlocks" value="perkMidnightsBook7"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBook7" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkMidnightsBookComplete" level="-1">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+			<requirement name="PerksUnlocked" skill_name="skillMidnights" operation="GTE" value="7"/></triggered_effect>
+	</effect_group>
+</item>
+    
+
+<!-- ##### quests and quest notes ##### -->
+    
+<item name="qt_talonstash1">
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="treasure_talonstash1"/>
+	</property>
+</item>	
+
+<item name="qt_titanstash1">
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="treasure_titanstash1"/>
+	</property>
+</item>	    
+    
+<item name="qt_midnightstash1">
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="treasure_midnightstash1"/>
+	</property>
+</item>	    
+    
+<item name="qt_jesterstash1">
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="treasure_jesterstash1"/>
+	</property>
+</item>	    
+	
+<item name="qt_bedlamstash1">
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="treasure_bedlamstash1"/>
+	</property>
+</item>	
+
+    
+<item name="noteTalon1">
+	<property name="Extends" value="blankNoteMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="noteTalon1Desc"/>
+	<property name="CustomIcon" value="challengeQuestMaster"/>
+</item>
+
+<item name="noteTitan1">
+	<property name="Extends" value="blankNoteMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="noteTitan1Desc"/>
+	<property name="CustomIcon" value="challengeQuestMaster"/>
+</item>    
+    
+<item name="noteMidnight1">
+	<property name="Extends" value="blankNoteMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="noteMidnight1Desc"/>
+	<property name="CustomIcon" value="challengeQuestMaster"/>
+</item>
+    
+<item name="noteJester1">
+	<property name="Extends" value="blankNoteMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="noteJester1Desc"/>
+	<property name="CustomIcon" value="challengeQuestMaster"/>
+</item>
+    
+<item name="noteBedlam1">
+	<property name="Extends" value="blankNoteMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="noteBedlam1Desc"/>
+	<property name="CustomIcon" value="challengeQuestMaster"/>
+</item>
+    
+
+<item name="ReaperToken">
+	<property name="Tags" value="dukes"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="TintColor" value="136,139,141"/>
+	<property name="CustomIcon" value="ReaperToken"/>
+	<property name="DescriptionKey" value="ReaperTokenDesc"/>
+	<property name="Material" value="MresourceScrapIron"/>
+	<property name="MeltTimePerUnit" value=".4"/>
+	<property name="Weight" value="1"/>
+	<property name="Stacknumber" value="50"/> <!-- STK resource -->
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+</item>
+
+
+    
 </append>
 
 <!-- Let's make it so you can select these arrows with a bow; currently, all bows are acceptable to use with these arrows -->
 
-<append xpath="/items/item[@name='gunBowT0PrimitiveBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBreach</append>
-<append xpath="/items/item[@name='gunBowT1WoodenBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBreach</append>
-<append xpath="/items/item[@name='gunBowT3CompoundBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBreach</append>
+<append xpath="/items/item[@name='gunBowT0PrimitiveBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBreach,ammoArrowShock,ammoArrowBulldozer,ammoArrowSticky,ammoArrowTalon,ammoArrowJester,ammoArrowImmolation,ammoArrowTitan</append>
+<append xpath="/items/item[@name='gunBowT1WoodenBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBreach,ammoArrowShock,ammoArrowBulldozer,ammoArrowSticky,ammoArrowTalon,ammoArrowJester,ammoArrowImmolation,ammoArrowTitan</append>
+<append xpath="/items/item[@name='gunBowT3CompoundBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBreach,ammoArrowShock,ammoArrowBulldozer,ammoArrowSticky,ammoArrowTalon,ammoArrowJester,ammoArrowImmolation,ammoArrowTitan</append>
 
-<append xpath="/items/item[@name='gunBowT0PrimitiveBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowShock</append>
-<append xpath="/items/item[@name='gunBowT1WoodenBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowShock</append>
-<append xpath="/items/item[@name='gunBowT3CompoundBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowShock</append>
 
-<append xpath="/items/item[@name='gunBowT0PrimitiveBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBulldozer</append>
-<append xpath="/items/item[@name='gunBowT1WoodenBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBulldozer</append>
-<append xpath="/items/item[@name='gunBowT3CompoundBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowBulldozer</append>
+<!-- the iron spear schematic will give you the iron reaper spear recipe as well -->
 
-<append xpath="/items/item[@name='gunBowT0PrimitiveBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowSticky</append>
-<append xpath="/items/item[@name='gunBowT1WoodenBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowSticky</append>
-<append xpath="/items/item[@name='gunBowT3CompoundBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowSticky</append>
-
-<append xpath="/items/item[@name='gunBowT0PrimitiveBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowTalon</append>
-<append xpath="/items/item[@name='gunBowT1WoodenBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowTalon</append>
-<append xpath="/items/item[@name='gunBowT3CompoundBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowTalon</append>
-
-<append xpath="/items/item[@name='gunBowT0PrimitiveBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowPenetrator</append>
-<append xpath="/items/item[@name='gunBowT1WoodenBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowPenetrator</append>
-<append xpath="/items/item[@name='gunBowT3CompoundBow'] /property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoArrowPenetrator</append>
-
+<append xpath="/items/item[@name='meleeWpnSpearT1IronSpearSchematic']">
+		<effect_group>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeStabbySpearIron" operation="set" value="1"/>
+		</effect_group>
+</append>
 
 </configs>

@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's RangerMod ver .3 -->
 <configs>
 
     <append xpath="/progression/perks/perk[@name='perkArchery']">
@@ -12,5 +12,72 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowBreach,ammoBundleArrowShock,ammoBundleArrowBulldozer,ammoBundleArrowSticky"/>
 		</effect_group>
 	</append>
+
+	<append xpath="/progression/perks/perk[@name='perkSpearHunter3SteelSpears']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="meleeStabbySpear"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/progression/perks/perk[@name='perkJavelinMaster']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="meleeStabbySpearIron"/>
+		</effect_group>
+	</append>
+
+<!-- midnight's books -->
+<append xpath="/progression/skills">
+    
+<!-- can i add a new game symbol? a reaper's scythe, maybe? -->
+    <skill name="skillMidnights" parent="attBooks" name_key="perkMidnightsBooks0Name" desc_key="perkMidnightsBooks0Desc" long_desc_key="perkBookGroupLongDesc" icon="ui_game_symbol_skull">
+        <effect_group/>
+    </skill>
+
+</append>    
+    
+<append xpath="/progression/perks">
+    
+    <perk name="perkMidnightsBook1" parent="skillMidnights" max_level="1" base_skill_point_cost="0" name_key="BookMidnightsBook1" desc_key="perkMidnightsBook1Desc" long_desc_key="perkMidnightsBook1LongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoArrowJester,ammoArrowBulldozer"/>
+		</effect_group>
+    </perk>
+	<perk name="perkMidnightsBook2" parent="skillMidnights" max_level="1" base_skill_point_cost="0" name_key="BookMidnightsBook2" desc_key="perkMidnightsBook2Desc" long_desc_key="perkMidnightsBook2LongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoArrowSticky"/>
+		</effect_group>
+	</perk>
+	<perk name="perkMidnightsBook3" parent="skillMidnights" max_level="1" base_skill_point_cost="0" name_key="BookMidnightsBook3" desc_key="perkMidnightsBook3Desc" long_desc_key="perkMidnightsBook3LongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoArrowBreach"/>
+		</effect_group>
+    </perk>
+	<perk name="perkMidnightsBook4" parent="skillMidnights" max_level="1" base_skill_point_cost="0" name_key="BookMidnightsBook4" desc_key="perkMidnightsBook4Desc" long_desc_key="perkMidnightsBook4LongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoArrowTalon"/>
+		</effect_group>
+	</perk>
+	<perk name="perkMidnightsBook5" parent="skillMidnights" max_level="1" base_skill_point_cost="0" name_key="BookMidnightsBook5" desc_key="perkMidnightsBook5Desc" long_desc_key="perkMidnightsBook5LongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoArrowImmolation"/>
+		</effect_group>
+	</perk>
+	<perk name="perkMidnightsBook6" parent="skillMidnights" max_level="1" base_skill_point_cost="0" name_key="BookMidnightsBook6" desc_key="perkMidnightsBook6Desc" long_desc_key="perkMidnightsBook6LongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoArrowShock"/>
+		</effect_group>
+    </perk>
+	<perk name="perkMidnightsBook7" parent="skillMidnights" max_level="1" base_skill_point_cost="0" name_key="BookMidnightsBook7" desc_key="perkMidnightsBook7Desc" long_desc_key="perkMidnightsBook7LongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoArrowTitan"/>
+		</effect_group>
+    </perk>
+	<perk name="perkMidnightsBookComplete" parent="skillMidnights" max_level="1" base_skill_point_cost="0" name_key="perkMidnightsBookCompleteName" desc_key="perkMidnightsBookCompleteDesc" long_desc_key="perkMidnightsBookCompleteLongDesc">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowJester,ammoBundleArrowShock,ammoBundleArrowSticky,ammoBundleArrowBulldozer,ammoBundleArrowTalon,ammoBundleArrowBreach,ammoBundleArrowTitan,ammoBundleArrowImmolation"/>
+		</effect_group>
+	</perk>
+    
+</append>
 
 </configs>

@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's RangerMod ver .3 -->
 <configs>
 <append xpath="/recipes">
 
@@ -17,7 +17,6 @@
 		<ingredient count="300" name="resourceGunPowder"/>
 	</recipe>
 	
-	
 	<recipe count="1" name="ammoArrowShock" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient count="1" name="resourceArrowHeadSteelAP"/>
 		<ingredient count="2" name="resourceScrapPolymers"/>
@@ -29,7 +28,6 @@
 		<ingredient count="120" name="resourceScrapPolymers"/>
 		<ingredient count="300" name="resourceElectricParts"/>
 	</recipe>
-	
 	
 	<recipe count="1" name="ammoArrowSticky" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient count="1" name="resourceArrowHeadSteelAP"/>
@@ -54,8 +52,7 @@
 		<ingredient count="120" name="resourceScrapPolymers"/>
 		<ingredient count="120" name="resourceMechanicalParts"/>
 	</recipe>
-	
-	
+		
 	<recipe count="1" name="ammoArrowTalon" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient count="2" name="resourceArrowHeadSteelAP"/>
 		<ingredient count="3" name="resourceScrapPolymers"/>
@@ -67,7 +64,58 @@
 		<ingredient count="180" name="resourceScrapPolymers"/>
 		<ingredient count="60" name="resourceForgedSteel"/>
 	</recipe>
+	
+	<recipe count="1" name="ammoArrowTitan" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="3" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="4" name="resourceScrapPolymers"/>
+		<ingredient count="1" name="resourceForgedSteel"/>
+	</recipe>
 
+	<recipe count="1" name="ammoBundleArrowTitan" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="160" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="240" name="resourceScrapPolymers"/>
+		<ingredient count="60" name="resourceForgedSteel"/>
+	</recipe>
+	
+	<recipe count="1" name="ammoArrowJester" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="5" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="2" name="resourceScrapPolymers"/>
+		<ingredient count="2" name="resourceMechanicalParts"/>
+		<ingredient count="3" name="resourceGunPowder"/>
+		<ingredient count="2" name="resourceElectricParts"/>
+		
+	</recipe>
+
+	<recipe count="1" name="ammoBundleArrowJester" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="300" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="120" name="resourceScrapPolymers"/>
+		<ingredient count="120" name="resourceMechanicalParts"/>
+		<ingredient count="180" name="resourceGunPowder"/>
+		<ingredient count="120" name="resourceElectricParts"/>
+	</recipe>
+	
+	
+	<recipe count="1" name="ammoArrowImmolation" craft_time="4" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="1" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="2" name="resourceScrapPolymers"/>
+		<ingredient count="1" name="resourceForgedSteel"/>
+		<ingredient name="resourceCloth" count="1"/>
+		<ingredient name="ammoGasCan" count="300"/>
+
+	</recipe>
+
+	<recipe count="1" name="ammoBundleArrowImmolation" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient count="600" name="resourceArrowHeadSteelAP"/>
+		<ingredient count="120" name="resourceScrapPolymers"/>
+		<ingredient count="60" name="resourceForgedSteel"/>
+		<ingredient name="resourceCloth" count="60"/>
+		<ingredient name="ammoGasCan" count="18000"/>
+
+	</recipe>
+	
+	
+	
+	
 	<recipe name="modArmorQuiver" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient count="25" name="resourceLeather"/>
 		<ingredient count="2" name="resourceScrapPolymers"/>
@@ -101,6 +149,45 @@
 </recipe>
 
 
+    <recipe name="meleeStabbySpearIron" count="1" tags="learnable,perkJavelinMaster">
+	<ingredient name="resourceForgedIron" count="16"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+	</effect_group>
+</recipe>
+
+    <recipe name="meleeStabbySpearStone" count="1" tags="perkJavelinMaster">
+	<ingredient name="resourceRockSmall" count="5"/>
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<!-- ### the bow can only be found via quests; remove these if you want a recipe, though you'll also need to remove the comments in the items file to create the schematics, and then probably cheat them into the game since they're not sold/lootable ### -->
+
+<!-- <recipe name="BowTitanBow" count="1" craft_area="workbench" tags="learnable,perkArchery">
+	<ingredient name="gunBowT1WoodenBowParts" count="7"/>
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceDuctTape" count="7"/>
+	<ingredient name="resourceSpring" count="15"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunBowT1WoodenBowParts,resourceScrapPolymers,resourceLeather,resourceDuctTape,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+<recipe name="BowTalonBow" count="1" craft_area="workbench" tags="learnable,perkArchery">
+	<ingredient name="gunBowT1WoodenBowParts" count="5"/>
+	<ingredient name="resourceWood" count="30"/>
+	<ingredient name="resourceLeather" count="5"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunBowT1WoodenBowParts,resourceWood,resourceLeather,resourceGlue,resourceDuctTape"/>
+	</effect_group>
+</recipe> -->
 
 	
 </append>

@@ -1,0 +1,125 @@
+<!-- kic's RangerMod ver .3 -->
+<configs>
+
+
+<append xpath="/blocks">
+
+<!-- ### chests for buried quests -->    
+    
+<block name="cntBuriedLootStashTalon1Chest">
+	<property name="Extends" value="cntLootChestHero" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure,door"/>
+	<property name="CustomIcon" value="cntLootChestHero"/>
+	<property name="CustomIconTint" value="FFBF00"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_talonstash1"/>
+	<property name="DowngradeBlock" value="cntBuriedLootStashTalon1ChestInsecure"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="cntBuriedLootStashTalon1ChestInsecure">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_talonstash1"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+    
+<block name="cntBuriedLootStashTitan1Chest">
+	<property name="Extends" value="cntLootChestHero" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure,door"/>
+	<property name="CustomIcon" value="cntLootChestHero"/>
+	<property name="CustomIconTint" value="FFBF00"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_titanstash1"/>
+	<property name="DowngradeBlock" value="cntBuriedLootStashTitan1ChestInsecure"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="cntBuriedLootStashTitan1ChestInsecure">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_titanstash1"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>    
+
+<block name="cntBuriedLootStashMidnight1Chest">
+	<property name="Extends" value="cntLootChestHero" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure,door"/>
+	<property name="CustomIcon" value="cntLootChestHero"/>
+	<property name="CustomIconTint" value="FFBF00"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_midnightstash1"/>
+	<property name="DowngradeBlock" value="cntBuriedLootStashMidnight1ChestInsecure"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="cntBuriedLootStashMidnight1ChestInsecure">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_midnightstash1"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+    
+<block name="cntBuriedLootStashJester1Chest">
+	<property name="Extends" value="cntLootChestHero" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure,door"/>
+	<property name="CustomIcon" value="cntLootChestHero"/>
+	<property name="CustomIconTint" value="FFBF00"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_Jesterstash1"/>
+	<property name="DowngradeBlock" value="cntBuriedLootStashJester1ChestInsecure"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="cntBuriedLootStashJester1ChestInsecure">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_jesterstash1"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+    
+<block name="cntBuriedLootStashBedlam1Chest">
+	<property name="Extends" value="cntLootChestHero" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure,door"/>
+	<property name="CustomIcon" value="cntLootChestHero"/>
+	<property name="CustomIconTint" value="FFBF00"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_bedlamstash1"/>
+	<property name="DowngradeBlock" value="cntBuriedLootStashBedlam1ChestInsecure"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="cntBuriedLootStashBedlam1ChestInsecure">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="TintColor" value="804141"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="treasure_bedlamstash1"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>    
+</append>
+
+</configs>

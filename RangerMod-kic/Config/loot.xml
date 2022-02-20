@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's RangerMod ver .3 -->
 <configs>
 
 <append xpath="lootcontainers/lootgroup[@name='modGunT2']">
@@ -13,29 +13,255 @@
 	<item name="modArmorQuiver"/>
 </append>
 
+
+<!-- ### remove this (below) comment if you want to find bows in loot ### -->
+
+<!-- <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_Archery01']">
+	<item name="BowTalonBow"/>
+	<item name="BowTitanBow"/>
+</append> -->
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Archery']">
+	<item name="gunBowReaperInit"/>
+</append>
+
+
 <append xpath="lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
 	<item name="modGunBowUpgradedCamsSchematic"/>
 	<item name="modGunBowStabilizerSchematic"/>
 	<item name="modArmorQuiverSchematic"/>
 </append>
-	
-<append xpath="lootcontainers/lootgroup[@name='schematicsWeaponsRare']">
-	<item name="ammoArrowBreachSchematic"/>
-	<item name="ammoArrowShockSchematic"/>
-	<item name="ammoArrowBulldozerSchematic"/>
-	<item name="ammoArrowStickySchematic"/>
+
+
+<append xpath="lootcontainers/lootgroup[@name='twitch_perkBooks']">
+	<item name="BookMidnightsBook1"/>
+	<item name="BookMidnightsBook2"/>
+	<item name="BookMidnightsBook3"/>
+	<item name="BookMidnightsBook4"/>
+	<item name="BookMidnightsBook5"/>
+	<item name="BookMidnightsBook6"/>
+	<item name="BookMidnightsBook7"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='perkBooksT1']">
+	<item name="BookMidnightsBook1"/>
+	<item name="BookMidnightsBook2"/>
+	<item name="BookMidnightsBook3"/>
+	<item name="BookMidnightsBook4"/>
+	<item name="BookMidnightsBook5"/>
+	<item name="BookMidnightsBook6"/>
+	<item name="BookMidnightsBook7"/>
+</append>
+
+
+<append xpath="lootcontainers/lootgroup[@name='groupSavageCountryBooks']">
+	<item name="BookMidnightsBook1"/>
+	<item name="BookMidnightsBook2"/>
+	<item name="BookMidnightsBook3"/>
+	<item name="BookMidnightsBook4"/>
+	<item name="BookMidnightsBook5"/>
+	<item name="BookMidnightsBook6"/>
+	<item name="BookMidnightsBook7"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_All']">
+	<item name="meleeStabbySpearStone"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']">
+	<item name="meleeStabbySpearStone"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsT1_Melee']">
+	<item name="meleeStabbySpearIron"/>
+</append>
 
     
 <append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
 	<item name="meleeStabbySpear"/>
 </append>
 
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']">
+	<item name="meleeStabbySpearIron"/>
+</append>
+
+
+<!-- ### if you want to be able to find the new bows in quest rewards, remove the two comments below ### -->
+
+<!-- <append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT2']">
+	<item name="BowTalonBow"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT3']">
+	<item name="BowTitanBow"/>
+</append> -->
+
+<append xpath="lootcontainers/lootgroup[@name='twitch_tier0melee']">
+	<item name="meleeStabbySpearStone"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='twitch_tier1melee']">
+	<item name="meleeStabbySpearIron"/>
+</append>
+
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
 	<item name="meleeStabbySpear"/>
 </append>
 
+<!-- ### quest-related stuff ### -->
 
+<insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
+
+<lootgroup name="BowModsForBuried1" count="1">
+	<item name="modGunBowArrowRest"/>
+	<item name="modGunBowStabilizer"/>
+	<item name="modGunBowUpgradedCams"/>
+	<item name="modArmorQuiver"/>
+	<item name="modGunBowPolymerString"/>
+</lootgroup>
+
+<lootgroup name="ReaperBooks" count="1">
+	<item name="BookMidnightsBook1"/>
+	<item name="BookMidnightsBook2"/>
+	<item name="BookMidnightsBook3"/>
+	<item name="BookMidnightsBook4"/>
+	<item name="BookMidnightsBook5"/>
+	<item name="BookMidnightsBook6"/>
+	<item name="BookMidnightsBook7"/>
 	
-</append>
+	<item name="bookRangersArrowRecovery"/>
+	<item name="bookRangersCripplingShot"/>
+	<item name="bookRangersKnockdown"/>
+	<item name="bookRangersFlamingArrows"/>
+	<item name="bookRangersAPAmmo"/>
+	<item name="bookRangersExplodingBolts"/>
+	<item name="bookRangersForestGuide"/>
+
+	<item name="bookSpearHunter1Damage"/>
+	<item name="bookSpearHunter2Maintenance"/>
+	<item name="bookSpearHunter3SteelSpears"/>
+	<item name="bookSpearHunter4StrongArm"/>
+	<item name="bookSpearHunter5RapidStrike"/>
+	<item name="bookSpearHunter6PuncturedLung"/>
+	<item name="bookSpearHunter7QuickStrike"/>
+
+</lootgroup>    
+
+
+<lootgroup name="ReaperMedical">
+	<item name="drugVitamins" count="2,4" prob="1.5"/>
+	<item name="medicalFirstAidBandage" count="5" prob="1.5"/>
+	<item name="medicalFirstAidKit" count="3" prob="1.6"/>
+	<item name="drugAntibiotics" count="1,3" prob="1.5"/>
+	<item name="drugHerbalAntibiotics" count="2,4" prob="1.5"/> 
+	<item name="drugPainkillers" count="2,3" prob="1.5"/>
+</lootgroup>
+
+<lootgroup name="ReaperFood">
+	<item name="foodCanBeef" count="1,2" prob="1.5"/>
+	<item name="foodCanChili" count="1,3" prob="1.5"/>
+	<item name="foodCanLamb" count="1,2" prob="1.5"/>
+	<item name="foodCanPasta" count="1,3" prob="1.5"/>
+	<item name="foodCanPeas" count="2,4" prob="1.5"/>
+	<item name="foodCanSalmon" count="1,2" prob="1.5"/>
+	<item name="foodCanTuna" count="2,4" prob="1.5"/>
+</lootgroup>
+
+<lootgroup name="SpearMods">
+	<item name="modMeleeSerratedBlade"/>
+	<item name="modMeleeStructuralBrace"/>
+	<item name="modMeleeWeightedHead"/>
+	<item name="modMeleeClubBurningShaft"/>
+	<item name="modMeleeFortifyingGrip"/>
+	<item name="modMeleeErgonomicGrip"/>
+	<item name="modMeleeTemperedBlade"/>
+</lootgroup>
+
+<lootgroup name="JesterJokeMelee" loot_quality_template="QLTemplateT0">
+	<item name="meleeWpnClubT0WoodenClub"/>
+	<item name="meleeWpnKnucklesT0LeatherKnuckles"/>
+	<item name="meleeWpnBladeT0BoneKnife"/>
+	<item name="meleeWpnBatonT0PipeBaton"/>
+</lootgroup>
+
+    
+<!-- ### buried quest chest contents -->    
+    
+<lootgroup name="groupBuriedStashTalon1Chest" count="all">
+	<item name="BowTalonBow" count="1"/>
+	<item name="ammoArrowTalon" count="20,40"/>
+    <item name="ammoArrowSteelAP" count="30,60"/>
+	<item group="BowModsForBuried1" count="2"/>
+	<item name="casinoCoin" count="500,1000"/>
+	<item name="ReaperToken" count="1"/>
+    <item name="noteTalon1" count="1"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedStashTitan1Chest" count="all">
+	<item name="BowTitanBow" count="1"/>
+	<item name="ammoArrowTitan" count="20,40"/>
+    <item name="ammoArrowSteelAP" count="30,60"/>
+	<item group="BowModsForBuried1" count="2"/>
+	<item name="casinoCoin" count="500,1000"/>
+	<item name="ReaperToken" count="1"/>
+    <item name="noteTitan1" count="1"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedStashMidnight1Chest" count="all">
+	<item name="MidnightsShroud" count="1"/>
+    <item name="MidnightsJudgment" count="1"/>
+	<item name="ammoShotgunShell" count="15,32"/>
+	<item group="ReaperBooks" count="2,4"/>
+    <item group="ReaperMedical" count="2"/>
+    <item group="ReaperFood" count="3"/>
+	<item name="casinoCoin" count="500,1000"/>
+	<item name="ReaperToken" count="1"/>
+    <item name="noteMidnight1" count="1"/>
+</lootgroup>
+    
+<lootgroup name="groupBuriedStashJester1Chest" count="all">
+	<item name="JestersDancingShoes" count="1"/>
+	<item name="ammoArrowJester" count="20,40"/>
+    <item name="ammoArrowBulldozer" count="10,20"/>
+	<item group="JesterJokeMelee" count="1"/>
+    <item name="drugVitamins" count="1"/>
+    <item name="foodRottingFlesh" count="2,7"/>
+	<item name="casinoCoin" count="3"/>
+	<item name="ReaperToken" count="1"/>
+    <item name="noteJester1" count="1"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedStashBedlam1Chest" count="all">
+	<item name="BedlamsTurningPoint" count="1"/>
+    <item name="BedlamsCage" count="1"/>
+	<item name="ammoArrowImmolation" count="20,40"/>
+    <item name="ammoArrowExploding" count="20,40"/>
+	<item group="SpearMods" count="2"/>
+	<item name="ReaperToken" count="1"/>
+    <item name="noteBedlam1" count="1"/>
+</lootgroup>
+    
+    
+<lootcontainer id="867" name="treasure_talonstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedStashTalon1Chest"/>
+</lootcontainer>
+
+<lootcontainer id="868" name="treasure_titanstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedStashTitan1Chest"/>
+</lootcontainer>
+    
+<lootcontainer id="869" name="treasure_midnightstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedStashMidnight1Chest"/>
+</lootcontainer>
+    
+<lootcontainer id="870" name="treasure_jesterstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedStashJester1Chest"/>
+</lootcontainer>
+    
+<lootcontainer id="871" name="treasure_bedlamstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedStashBedlam1Chest"/>
+</lootcontainer>    
+
+</insertBefore>
 
 </configs>

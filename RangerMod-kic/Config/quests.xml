@@ -1,0 +1,127 @@
+<!-- kic's RangerMod ver .3 -->
+<configs>
+
+<!-- mods first -->
+
+<append xpath="/quests">
+	
+	<quest id="treasure_talonstash1">
+		<property name="name_key" value="treasure_talonstash1"/>
+		<property name="subtitle_key" value="treasure_talonstash1"/>
+		<property name="description_key" value="treasure_talonstash1_offer"/>
+		<property name="icon" value="ui_game_symbol_map"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="treasure"/>
+		<property name="offer_key" value="treasure_talonstash1_offer"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashTalon1Chest"/>
+			<property name="alt_block" value="cntBuriedLootStashTalon1ChestInsecure"/>
+			<property name="distance" value="1100-2000"/>
+			<property name="default_radius" value="9"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="10" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+	</quest>
+	
+	<quest id="treasure_titanstash1">
+		<property name="name_key" value="treasure_titanstash1"/>
+		<property name="subtitle_key" value="treasure_titanstash1"/>
+		<property name="description_key" value="treasure_titanstash1_offer"/>
+		<property name="icon" value="ui_game_symbol_map"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="treasure"/>
+		<property name="offer_key" value="treasure_titanstash1_offer"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashTitan1Chest"/>
+			<property name="alt_block" value="cntBuriedLootStashTitan1ChestInsecure"/>
+			<property name="distance" value="1100-2000"/>
+			<property name="default_radius" value="9"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="10" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+	</quest>
+
+
+	<quest id="treasure_midnightstash1">
+		<property name="name_key" value="treasure_midnightstash1"/>
+		<property name="subtitle_key" value="treasure_midnightstash1"/>
+		<property name="description_key" value="treasure_midnightstash1_offer"/>
+		<property name="icon" value="ui_game_symbol_map"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="treasure"/>
+		<property name="offer_key" value="treasure_midnightstash1_offer"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashMidnight1Chest"/>
+			<property name="alt_block" value="cntBuriedLootStashMidnight1ChestInsecure"/>
+			<property name="distance" value="1100-2000"/>
+			<property name="default_radius" value="9"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="10" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+	</quest>
+
+	<quest id="treasure_jesterstash1">
+		<property name="name_key" value="treasure_jesterstash1"/>
+		<property name="subtitle_key" value="treasure_jesterstash1"/>
+		<property name="description_key" value="treasure_jesterstash1_offer"/>
+		<property name="icon" value="ui_game_symbol_map"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="treasure"/>
+		<property name="offer_key" value="treasure_jesterstash1_offer"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashJester1Chest"/>
+			<property name="alt_block" value="cntBuriedLootStashJester1ChestInsecure"/>
+			<property name="distance" value="1100-2000"/>
+			<property name="default_radius" value="9"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="10" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+	</quest>	
+	
+
+	<quest id="treasure_bedlamstash1">
+		<property name="name_key" value="treasure_bedlamstash1"/>
+		<property name="subtitle_key" value="treasure_bedlamstash1"/>
+		<property name="description_key" value="treasure_bedlamstash1_offer"/>
+		<property name="icon" value="ui_game_symbol_map"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="treasure"/>
+		<property name="offer_key" value="treasure_bedlamstash1_offer"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashBedlam1Chest"/>
+			<property name="alt_block" value="cntBuriedLootStashBedlam1ChestInsecure"/>
+			<property name="distance" value="1100-2000"/>
+			<property name="default_radius" value="9"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="10" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+	</quest>
+	
+</append>
+
+</configs>

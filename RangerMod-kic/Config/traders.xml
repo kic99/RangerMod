@@ -1,7 +1,12 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's RangerMod ver .3 -->
 <configs>
 
 <!-- mods first -->
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsMeleeT0-1']">
+	<item name="meleeStabbySpearIron"/>
+</append>
+
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT2']">
 	<item name="modGunBowStabilizer"/>
@@ -17,7 +22,18 @@
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsMeleeT2']">
 	<item name="meleeStabbySpear"/>
-</append>    
+</append>
+
+<!-- ### bows are now found only in quests; remove the comments below if you want the trader to sell them ### -->
+
+<!-- <append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT2']">
+	<item name="BowTalonBow"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT3']">
+	<item name="BowTitanBow"/>
+</append> -->
+
     
 
 <!-- then schematics -->
@@ -31,10 +47,13 @@
 <!-- this seemed liked the most appropriate table based on the vanilla contents -->
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
-	<item name="ammoArrowBreachSchematic"/>
-	<item name="ammoArrowShockSchematic"/>
-	<item name="ammoArrowBulldozerSchematic"/>
-	<item name="ammoArrowStickySchematic"/>
+	<item name="BookMidnightsBook1"/>
+	<item name="BookMidnightsBook2"/>
+	<item name="BookMidnightsBook3"/>
+	<item name="BookMidnightsBook4"/>
+	<item name="BookMidnightsBook5"/>
+	<item name="BookMidnightsBook6"/>
+	<item name="BookMidnightsBook7"/>
 </append>
 
 </configs>

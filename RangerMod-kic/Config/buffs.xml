@@ -1,9 +1,9 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's RangerMod ver .3 -->
 <configs>
 <append xpath="/buffs">
 
 
-	<buff name="buffSticky" name_key="buff Sticky" icon="ui_game_symbol_stunned" icon_color="255,128,0">
+	<buff name="buffSticky" name_key="buffSticky" icon="ui_game_symbol_stunned" icon_color="255,128,0">
 		<damage_type value="stun"/>
 		<stack_type value="ignore"/>
 		<duration value="300"/>
@@ -43,7 +43,7 @@
 	
 	
 	
-		<buff name="buffQuiver" name_key="buffQuiver" hidden="true">
+	<buff name="buffQuiver" name_key="buffQuiver" hidden="true">
 		<stack_type value="ignore"/>
 		<duration value="0"/>
 				
@@ -85,7 +85,32 @@
 		</effect_group>
 
 	</buff>
-	
+
+	<buff name="buffMakeitBigger" name_key="buffMakeitBigger" hidden="true">
+		<damage_type value="stun"/>
+		<stack_type value="ignore"/>
+		<duration value="300"/>
+		<effect_group>
+<!--			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSticky">
+				<requirement name="!EntityTagCompare" tags="walker,zombie,animal"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSticky">
+				<requirement name="EntityTagCompare" tags="player"/>
+			</triggered_effect> -->
+
+			<triggered_effect trigger="onSelfBuffStart" action="SetScale" scale="2.0">
+				<requirement name="!EntityTagCompare" tags="player"/>
+				<requirement name="EntityTagCompare" tags="walker,zombie,animal"/>
+			</triggered_effect>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="!EntityTagCompare" tags="player"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".65"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".65"/>
+		</effect_group>
+	</buff>
+
 	
 	</append>
 </configs>

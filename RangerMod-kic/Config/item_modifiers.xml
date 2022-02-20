@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .01 -->
+<!-- kic's RangerMod ver .3 -->
 <configs>
 <append xpath="/item_modifiers">
 
@@ -38,6 +38,18 @@
 			<passive_effect name="KickDegreesHorizontalMax" operation="perc_subtract" value=".1" tags="perkArchery"/>
 			</effect_group>
 	</item_modifier>
+	
+	<item_modifier name="modBetterBunkerBuster" installable_tags="melee" modifier_tags="damageStone" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<!--<property name="UnlockedBy" value="modMeleeBunkerBusterSchematic"/>-->
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="stone"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffHarvestXPBalance"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffHarvestXPBalance"/>
+		</effect_group>
+	</item_modifier>
+	
+	
 
 </append>
 </configs>

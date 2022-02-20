@@ -1,0 +1,12 @@
+<!-- kic's RangerMod ver .3 -->
+<configs>
+
+<append xpath="/windows/window[@name='windowRadial']/rect">
+	<radial_entry/>
+	<radial_entry/>
+	<radial_entry/>
+	<radial_entry/>
+	<radial_entry/>
+</append>
+
+</configs>

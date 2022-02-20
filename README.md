@@ -17,7 +17,9 @@ Installing? Unzip the RangerMod.zip file and put the resulting RangerMod-kic fol
 ### Version history
 
 .1 Initial release: 5 arrows, 3 item mods, 1 spear.
+
 .2 Bug fixes and new items. Bugs fixed: arrows now scrap to metal and no longer generate particle effects errors in console. New items: 2 spears, 2 bows.
+
 .3 Holy crap. So many more lines of code. New items: 3 arrows, 1 bow, 1 spear, 1 duster, 1 iron helmet, 1 shotgun pistol (I said it), 1 pair of shoes, 5 quests, 7 books, and all the crap behind the scenes to make that stuff work. Also, bug fixes, adjustments to Talon's and Titan's bows, items renamed, some recipes removed, and changed how some things are unlocked. This version is foundational, assuming I figure out how to do the other things I want.
 
 ----------------

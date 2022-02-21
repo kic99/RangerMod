@@ -1,4 +1,4 @@
-# RangerMod by kic (for 7 Days to Die alpha 20)
+# RangerMod by kic (for 7 Days to Die alpha 20) version .31
 ## Disclosure: This is a personal project and is designed, primarily, for my enjoyment and use on my [YT channel](https://youtube.com/kic). I'm releasing it to the public in case someone is interested in it. Because it's a personal project, that's the primary lens through which I view balancing, features, etc., but I welcome constructive feedback.
 
 ### Download and Installation

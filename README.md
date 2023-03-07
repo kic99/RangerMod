@@ -1,4 +1,4 @@
-# RangerMod by kic (for 7 Days to Die alpha 20) version .31
+# RangerMod by kic (for 7 Days to Die alpha 20)
 ## Disclosure: This is a personal project and is designed, primarily, for my enjoyment and use on my [YT channel](https://youtube.com/kic). I'm releasing it to the public in case someone is interested in it. Because it's a personal project, that's the primary lens through which I view balancing, features, etc., but I welcome constructive feedback.
 
 ### Download and Installation
@@ -23,6 +23,10 @@ Installing? Unzip the RangerMod.zip file and put the resulting RangerMod-kic fol
 .3 Holy crap. So many more lines of code. New items: 3 arrows, 1 bow, 1 spear, 1 duster, 1 iron helmet, 1 shotgun pistol (I said it), 1 pair of shoes, 5 quests, 7 books, and all the crap behind the scenes to make that stuff work. Also, bug fixes, adjustments to Talon's and Titan's bows, items renamed, some recipes removed, and changed how some things are unlocked. This version is foundational, assuming I figure out how to do the other things I want.
 
 .31 Bug fix for quests not showing up in loot.
+
+.32 Bug fixes and changes: weapon damage (shotgun pistol buffed) and loot spawning (slightly more spawning of Midnight's books).
+
+.33 Finally fixed the bug on the Reaper spear so it now correctly requires a 5 point investment into spears to grant an additional jump height. Probably something else fixed but I don't remember what.
 
 ----------------
 ### Thanks and stuff
@@ -97,10 +101,10 @@ All of the mods can be found as schematics in loot or for sale by the trader, or
 * Trick arrow quiver - this attaches to chest armor, and chest armor only. Why? Because it's inspired by the horribly-inaccurate-but-looks-awesome Hollywood/comic/etc. stuff of yore. The quiver applies a reload bonus so you can fire arrows faster. Primarily, you'll notice that draw time is reduced (faster draw) the more you increase your Archery perk, with the weighting of the effect being more heavily towards the full perk value (5). It's not a massive increase, but it's noticeable, especially if you're used to the vanilla speeds. When combined with high archery skill and Talon's Flurry, you can snap off a lot of shots in a short amount of time.
 
 ### Spears
-As of version .2 there are now stabby spears for all regular spears. Now called Reaper spears as of version .3, they're spears you can't throw, attack slightly faster than standard spears, use slightly less stamina to attack, and also allow you to pole vault (jump one additional block height). Yes, this means they're slightly overpowered compared to regular spears, but regular spears are hands down the worst melee weapon in the game. Sad but true.
+As of version .2 there are now stabby spears for all regular spears. Now called Reaper spears as of version .3, they're spears you can't throw, attack slightly faster than standard spears, use slightly less stamina to attack, and also allow you to pole vault (jump one additional block height if you invest fully in the spears perk). Yes, this means they're slightly overpowered compared to regular spears, but regular spears are hands down the worst melee weapon in the game. Sad but true.
 
 Why would you want this? Because throwing spears is an exercise in frustration half of the time. Maybe you're better than me, or you have better luck, but when I throw a spear, I miss enough times that it's annoying to have to run around the mob, find the spear, and pick it up again to attack. And that's assuming that when I found the spear I was even presented with the option to press "E" and pray to get the spear, because half the time I don't, and the other half of the time, my sacrifices to Baal or whoever are insufficient because I'm rewarded with nothing but the clacking of my keyboard and an empty hand. So why am I yeeting this stupid thing again?
-* Reaper spear - Stone, iron, and steel stabby spears. Stone is available from the start (you can craft this immediately--I suggest you do for the jump bonus), iron and steel need schematics/books/whatever to learn them. Functionally, they're shovels, but they're spears, so stab away and enjoy never losing your spear again, unless you hit your hotkey for dropping your equipped item. Been there, noticed it minutes later after the item despawned. Iron and steel can be found via loot or purchased at a trader.
+* Reaper spear - Stone, iron, and steel stabby spears. Stone is available from the start, iron and steel need schematics/books/whatever to learn them. Functionally, they're shovels, but they're spears, so stab away and enjoy never losing your spear again, unless you hit your hotkey for dropping your equipped item. Been there, noticed it minutes later after the item despawned. Iron and steel can be found via loot or purchased at a trader.
 * Bedlam’s Turning Point – Distance is always the best first choice with the undead, but Bedlam sometimes liked to get closer. His spear, while mostly the same as other Reaper spears, had an extra touch: a built-in taser. Though not as potent as a stun baton, the range offered by the spear makes it an interesting choice. Can only be obtained via questing.
 
 

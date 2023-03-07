@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .31 -->
+<!-- kic's RangerMod ver .33 -->
 <configs>
 
 <append xpath="lootcontainers/lootgroup[@name='modGunT2']">
@@ -81,7 +81,7 @@
 	<item name="meleeStabbySpearStone"/>
 </append>
 
-<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsT1_Melee']">
+<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT1']">
 	<item name="meleeStabbySpearIron"/>
 </append>
 
@@ -117,11 +117,22 @@
 	<item name="meleeStabbySpear"/>
 </append>
 
+<append xpath="lootcontainers/lootgroup[@name='booksRareOnlyScaled']">
+	<item name="BookMidnightsBook1"/>
+	<item name="BookMidnightsBook2"/>
+	<item name="BookMidnightsBook3"/>
+	<item name="BookMidnightsBook4"/>
+	<item name="BookMidnightsBook5"/>
+	<item name="BookMidnightsBook6"/>
+	<item name="BookMidnightsBook7"/>
+</append>
+
+
 <!-- ### quest-related stuff ### -->
 
 <insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
 
-<lootgroup name="BowModsForBuried1" count="1">
+<lootgroup name="BowModsForBuried1">
 	<item name="modGunBowArrowRest"/>
 	<item name="modGunBowStabilizer"/>
 	<item name="modGunBowUpgradedCams"/>
@@ -129,7 +140,7 @@
 	<item name="modGunBowPolymerString"/>
 </lootgroup>
 
-<lootgroup name="ReaperBooks" count="1">
+<lootgroup name="ReaperBooks">
 	<item name="BookMidnightsBook1"/>
 	<item name="BookMidnightsBook2"/>
 	<item name="BookMidnightsBook3"/>
@@ -155,6 +166,17 @@
 	<item name="bookSpearHunter7QuickStrike"/>
 
 </lootgroup>    
+
+
+<lootgroup name="MidnightsReaperBooks">
+	<item name="BookMidnightsBook1"/>
+	<item name="BookMidnightsBook2"/>
+	<item name="BookMidnightsBook3"/>
+	<item name="BookMidnightsBook4"/>
+	<item name="BookMidnightsBook5"/>
+	<item name="BookMidnightsBook6"/>
+	<item name="BookMidnightsBook7"/>
+</lootgroup>
 
 
 <lootgroup name="ReaperMedical">
@@ -199,77 +221,140 @@
 <lootgroup name="groupBuriedStashTalon1Chest" count="all">
 	<item name="BowTalonBow" count="1"/>
 	<item name="ammoArrowTalon" count="20,40"/>
-    <item name="ammoArrowSteelAP" count="30,60"/>
-	<item group="BowModsForBuried1" count="2"/>
+	<item name="ammoArrowSteelAP" count="30,60"/>
+	<item group="ReaperBooks" count="1,3"/>
+	<item group="MidnightsReaperBooks" count="1,2" loot_prob_template="med"/>
+	<item group="BowModsForBuried1" count="1,3"/>
 	<item name="casinoCoin" count="500,1000"/>
 	<item name="ReaperToken" count="1"/>
-    <item name="noteTalon1" count="1"/>
+  <item name="noteTalon1" count="1"/>
 </lootgroup>
 
 <lootgroup name="groupBuriedStashTitan1Chest" count="all">
 	<item name="BowTitanBow" count="1"/>
 	<item name="ammoArrowTitan" count="20,40"/>
-    <item name="ammoArrowSteelAP" count="30,60"/>
-	<item group="BowModsForBuried1" count="2"/>
+	<item name="ammoArrowSteelAP" count="30,60"/>
+	<item group="ReaperBooks" count="1,3"/>
+	<item group="MidnightsReaperBooks" count="1,2" loot_prob_template="med"/>
+	<item group="BowModsForBuried1" count="1,3"/>
 	<item name="casinoCoin" count="500,1000"/>
 	<item name="ReaperToken" count="1"/>
-    <item name="noteTitan1" count="1"/>
+  <item name="noteTitan1" count="1"/>
 </lootgroup>
 
 <lootgroup name="groupBuriedStashMidnight1Chest" count="all">
 	<item name="MidnightsShroud" count="1"/>
-    <item name="MidnightsJudgment" count="1"/>
+	<item name="MidnightsJudgment" count="1"/>
 	<item name="ammoShotgunShell" count="15,32"/>
 	<item group="ReaperBooks" count="2,4"/>
-    <item group="ReaperMedical" count="2"/>
-    <item group="ReaperFood" count="3"/>
+	<item group="MidnightsReaperBooks" count="2,3" loot_prob_template="med"/>
+	<item group="ReaperMedical" count="2"/>
+	<item group="ReaperFood" count="3"/>
 	<item name="casinoCoin" count="500,1000"/>
 	<item name="ReaperToken" count="1"/>
-    <item name="noteMidnight1" count="1"/>
+  <item name="noteMidnight1" count="1"/>
 </lootgroup>
-    
+
 <lootgroup name="groupBuriedStashJester1Chest" count="all">
 	<item name="JestersDancingShoes" count="1"/>
 	<item name="ammoArrowJester" count="20,40"/>
-    <item name="ammoArrowBulldozer" count="10,20"/>
+	<item name="ammoArrowBulldozer" count="10,20"/>
+	<item group="ReaperBooks" count="1,3"/>
+	<item group="MidnightsReaperBooks" count="1,2" loot_prob_template="med"/>
 	<item group="JesterJokeMelee" count="1"/>
-    <item name="drugVitamins" count="1"/>
-    <item name="foodRottingFlesh" count="2,7"/>
+	<item name="drugVitamins" count="1"/>
+	<item name="foodRottingFlesh" count="2,7"/>
 	<item name="casinoCoin" count="3"/>
 	<item name="ReaperToken" count="1"/>
-    <item name="noteJester1" count="1"/>
+	<item name="noteJester1" count="1"/>
 </lootgroup>
 
 <lootgroup name="groupBuriedStashBedlam1Chest" count="all">
 	<item name="BedlamsTurningPoint" count="1"/>
-    <item name="BedlamsCage" count="1"/>
+	<item name="BedlamsCage" count="1"/>
 	<item name="ammoArrowImmolation" count="20,40"/>
-    <item name="ammoArrowExploding" count="20,40"/>
+	<item name="ammoArrowExploding" count="20,40"/>
+	<item group="ReaperBooks" count="1,3"/>
+	<item group="MidnightsReaperBooks" count="1,2" loot_prob_template="med"/>
 	<item group="SpearMods" count="2"/>
 	<item name="ReaperToken" count="1"/>
-    <item name="noteBedlam1" count="1"/>
+	<item name="noteBedlam1" count="1"/>
 </lootgroup>
-    
-    
-<lootcontainer id="867" name="treasure_talonstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+
+<!-- POI chest contents; for a potential future update -->
+
+<!-- <lootgroup name="groupT3ReaperChest1" count="all">
+	<item name="BedlamsTurningPoint" count="1"/>
+	<item name="BedlamsCage" count="1"/>
+	<item name="ammoArrowImmolation" count="20,40"/>
+	<item name="ammoArrowExploding" count="20,40"/>
+	<item group="ReaperBooks" count="1,2"/>
+	<item group="SpearMods" count="2"/>
+	<item name="ReaperToken" count="1"/>
+</lootgroup>
+
+<lootgroup name="groupT4ReaperChest1" count="all">
+	<item name="BedlamsTurningPoint" count="1"/>
+	<item name="BedlamsCage" count="1"/>
+	<item name="ammoArrowImmolation" count="20,40"/>
+	<item name="ammoArrowExploding" count="20,40"/>
+	<item group="ReaperBooks" count="2,4"/>
+	<item group="SpearMods" count="2"/>
+	<item name="ReaperToken" count="1"/>
+</lootgroup>
+
+<lootgroup name="treasure_T5ReaperChest1" count="all">
+	<item name="BedlamsTurningPoint" count="1"/>
+	<item name="BedlamsCage" count="1"/>
+	<item name="ammoArrowImmolation" count="20,40"/>
+	<item name="ammoArrowExploding" count="20,40"/>
+	<item group="ReaperBooks" count="3,5"/>
+	<item group="SpearMods" count="2"/>
+	<item name="ReaperToken" count="1"/>
+</lootgroup>
+
+<lootgroup name="groupCandyBox1" count="all">
+	<item group="foodCandy" count="3,5"/>
+</lootgroup> -->
+
+
+<lootcontainer id="867" name="treasure_talonstash1" count="1" size="6,4" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item group="groupBuriedStashTalon1Chest"/>
 </lootcontainer>
 
-<lootcontainer id="868" name="treasure_titanstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="868" name="treasure_titanstash1" count="1" size="6,4" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item group="groupBuriedStashTitan1Chest"/>
 </lootcontainer>
     
-<lootcontainer id="869" name="treasure_midnightstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="869" name="treasure_midnightstash1" count="1" size="6,4" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item group="groupBuriedStashMidnight1Chest"/>
 </lootcontainer>
     
-<lootcontainer id="870" name="treasure_jesterstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="870" name="treasure_jesterstash1" count="1" size="6,4" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item group="groupBuriedStashJester1Chest"/>
 </lootcontainer>
     
-<lootcontainer id="871" name="treasure_bedlamstash1" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="871" name="treasure_bedlamstash1" count="1" size="6,4" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item group="groupBuriedStashBedlam1Chest"/>
-</lootcontainer>    
+</lootcontainer>
+
+<!-- these aren't yet ready
+
+<lootcontainer id="872" name="treasure_T3ReaperChest1" count="1" size="6,4" destroy_on_close="false" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupT3ReaperChest1"/>
+</lootcontainer>
+
+<lootcontainer id="873" name="treasure_T4ReaperChest1" count="1" size="6,6" destroy_on_close="false" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupT4ReaperChest1"/>
+</lootcontainer>
+
+<lootcontainer id="874" name="treasure_T5ReaperChest1" count="1" size="6,8" destroy_on_close="false" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupT5ReaperChest1"/>
+</lootcontainer>
+
+<lootcontainer id="875" name="treasure_CandyBox1" count="1" size="6,4" destroy_on_close="false" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupCandyBox1"/>
+</lootcontainer> -->
 
 </insertBefore>
 

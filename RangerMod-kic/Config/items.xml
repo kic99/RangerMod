@@ -1,4 +1,4 @@
-<!-- kic's RangerMod ver .3 -->
+<!-- kic's RangerMod ver .33 -->
 <configs>
 <append xpath="/items">
 
@@ -278,7 +278,8 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
     <property name="UnlockedBy" value="perkSpearHunter3SteelSpears"/>
 	<effect_group tiered="false">
-		<passive_effect name="JumpStrength" operation="perc_add" value=".75"/>
+		<passive_effect name="JumpStrength" operation="perc_add" value=".75">
+		<requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="Equals" value="5"/></passive_effect>
 	</effect_group>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -316,8 +317,6 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
 		<passive_effect name="MaxRange" operation="base_set" value="3.2" tags="perkJavelinMaster"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
-		<!-- <passive_effect name="JumpStrength" operation="perc_add" value=".39" tags="perkJavelinMaster"/> -->
-		<!--	<requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="Equals" value="5"/></passive_effect>	-->
 
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -366,7 +365,8 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
     <property name="UnlockedBy" value="perkJavelinMaster,meleeWpnSpearT1IronSpearSchematic"/>
 	<effect_group tiered="false">
-		<passive_effect name="JumpStrength" operation="perc_add" value=".75"/>
+		<passive_effect name="JumpStrength" operation="perc_add" value=".75">
+		<requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="Equals" value="5"/></passive_effect>
 	</effect_group>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -448,7 +448,8 @@
 	<property name="Group" value="Ammo/Weapons,Basics"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<effect_group tiered="false">
-		<passive_effect name="JumpStrength" operation="perc_add" value=".75"/>
+		<passive_effect name="JumpStrength" operation="perc_add" value=".75">
+		<requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="Equals" value="5"/></passive_effect>
 	</effect_group>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -839,9 +840,9 @@
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons,Basics"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
-	<effect_group tiered="false">
+	<!-- <effect_group tiered="false">
 		<passive_effect name="JumpStrength" operation="perc_add" value=".75"/>
-	</effect_group>
+	</effect_group> -->
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Hitmask_override" value="Melee"/>
@@ -1177,12 +1178,12 @@ needed?
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick,perkGunslinger"/>
 
 		<passive_effect name="MagazineSize" operation="base_set" value="4" tags="perkBoomstick,perkGunslinger"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1.2" tags="perkGunslinger"/> 2s
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1.2" tags="perkGunslinger"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,3,4,5" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 
-		<passive_effect name="EntityDamage" operation="base_add" value="-6.4" tags="perkBoomstick"/> <!-- damage offset -->
+		<passive_effect name="EntityDamage" operation="base_add" value="-2" tags="perkBoomstick"/> <!-- damage offset --> <!-- check this against local file -->
 		<passive_effect name="BlockDamage" operation="base_add" value="-2.1" tags="perkBoomstick"/> <!-- damage offset -->
 
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBoomstick,perkGunslinger"/> <!-- tier bonus -->
@@ -1227,12 +1228,12 @@ needed?
 	</property>
 	<property name="EconomicValue" value="200"/>
 	<effect_group tiered="false">
-        <passive_effect name="RunSpeed" operation="perc_add" value=".15"/><display_value name="dRunSpeed" value=".15"/>
+    <passive_effect name="RunSpeed" operation="perc_add" value=".15"/><display_value name="dRunSpeed" value=".15"/>
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-        <passive_effect name="Mobility" operation="perc_add" value=".05"/>
-        <passive_effect name="StaminaChangeOT" operation="perc_add" value=".021" tags="walking"/>
-        <passive_effect name="StaminaChangeOT" operation="perc_add" value=".0562" tags="running"/>
-        <display_value name="dStaminaChangeOT" value=".0562"/>
+    <passive_effect name="Mobility" operation="perc_add" value=".05"/>
+    <passive_effect name="StaminaChangeOT" operation="perc_add" value=".021" tags="walking"/>
+    <passive_effect name="StaminaChangeOT" operation="perc_add" value=".0562" tags="running"/>
+  		 <display_value name="dStaminaRegen" value=".0562"/>
 		<passive_effect name="HypothermalResist" operation="base_add" value="3.8,6.2"/>
 		<passive_effect name="HyperthermalResist" operation="base_add" value="4.5,5.5"/>
 	</effect_group>
@@ -1650,6 +1651,15 @@ needed?
 		<effect_group>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeStabbySpearIron" operation="set" value="1"/>
 		</effect_group>
+		
+</append>
+
+<append xpath="/items/item[@name='bookSpearHunter3SteelSpears']">
+		<effect_group>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeStabbySpear" operation="set" value="1"/>
+		</effect_group>
+
+		
 </append>
 
 </configs>

@@ -1,15 +1,9 @@
-<!-- kic's RangerMod ver .3 -->
+<!-- kic's RangerMod ver .33 -->
 <configs>
 
     <append xpath="/progression/perks/perk[@name='perkArchery']">
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="ammoArrowTalon,ammoBundleArrowTalon"/>
-		</effect_group>
-	</append>
-
-	<append xpath="/progression/perks/perk[@name='perkRangersComplete']">
-		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammoBundleArrowBreach,ammoBundleArrowShock,ammoBundleArrowBulldozer,ammoBundleArrowSticky"/>
 		</effect_group>
 	</append>
 
@@ -21,7 +15,7 @@
 
 	<append xpath="/progression/perks/perk[@name='perkJavelinMaster']">
 		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="meleeStabbySpearIron"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeStabbySpearIron"/>
 		</effect_group>
 	</append>
 

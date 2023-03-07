@@ -22,7 +22,7 @@ ammoArrowJester,items,Ammo,,,Jester's Joking Jab Arrow,,
 ammoArrowJesterDesc,items,Ammo,,,"Jester liked fun. Jester really liked fun. This arrow is fun compressed into a delightful blend of plastic, steel, and chaos. Produces a random effect upon striking a fleshy (undead or animal) target. Thankfully, doesn’t work on people.",,
 
 ammoArrowImmolation,items,Ammo,,,Immolation Arrow,,
-ammoArrowImmolationDesc,items,Ammo,,,"It goes without saying that Bedlam enjoys chaos. What better way to sew doubt and chaos in your enemies than to light them, and all their friends, on fire? A good time for everyone.",,
+ammoArrowImmolationDesc,items,Ammo,,,"It goes without saying that Bedlam enjoys chaos. What better way to sew doubt and dismay in your enemies than to light them, and all their friends, on fire? A good time for everyone.",,
 
 
 modArmorQuiver,items,Ammo,,,Trick Arrow Quiver,,
@@ -59,13 +59,13 @@ ammoBundleArrowImmolation,items,Ammo,,,Bundle of Immolation Arrows,,
 ammoBundleArrowImmolationDesc,items,Ammo,,,A bundle of immolation arrows. Use to unpackage it.,,
 
 meleeStabbySpear,items,Melee,,,Steel Reaper Spear,,
-meleeStabbySpearDesc,items,Melee,,,"The same great regular steel spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting.\n\nRepair with Repair Kits.\nScraps to Spear parts.",,
+meleeStabbySpearDesc,items,Melee,,,"The same great regular steel spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting at SPEAR 5.\n\nRepair with Repair Kits.\nScraps to Spear parts.",,
 
 meleeStabbySpearIron,items,Melee,,,Iron Reaper Spear,,
-meleeStabbySpearIronDesc,items,Melee,,,"The same great regular iron spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting.\n\nRepair with Repair Kits.\nScraps to Spear parts.",,
+meleeStabbySpearIronDesc,items,Melee,,,"The same great regular iron spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting at SPEAR 5.\n\nRepair with Repair Kits.\nScraps to metal.",,
 
 meleeStabbySpearStone,items,Melee,,,Stone Reaper Spear,,
-meleeStabbySpearStoneDesc,items,Melee,,,"The same great regular stone spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting.\n\nRepair with Stones.\nScraps to stone.",,
+meleeStabbySpearStoneDesc,items,Melee,,,"The same great regular stone spear you know and love, except it takes two hands to use. Features faster attacks, less stamina usage, and power attacks. Also allows for pole vaulting at SPEAR 5.\n\nRepair with Stones.\nScraps to stone.",,
 
 BowTalonBow,items,Melee,,,Talon's Flurry,,
 BowTalonBowDesc,items,Melee,,,"Talon prefers speed and manueverability. What this bow lacks in oomph, it makes up for with rapid-fire ability. Provides a small run speed increase. Nocks multiple arrows based on Archery perk level for firing in rapid succession.\n\nRepair with Repair Kits.\nScraps to Bow/Crossbow parts.",,
@@ -74,7 +74,7 @@ BowTitanBow,items,Melee,,,Titan's Domination,,
 BowTitanBowDesc,items,Melee,,,"Titan prefers brute force. Enhanced damage at the cost of increased draw time. Nocks *and* fires two arrows simultaneously at high archery skill (5).\n\nRepair with Repair Kits.\nScraps to Bow/Crossbow parts.",,
 
 gunBowReaperInit,items,Melee,,,Reaper Initiate's Bow,,
-gunBowReaperInitDesc,items,Melee,,,"New blood to the Reapers were given a bundle of arrows, a bow, and a spear. An inexpensive bow for a learner, but with some room for growth.\n\nCan use 5 mods at quality 6.",,
+ReaperBowDesc,items,Melee,,,"New blood to the Reapers were given a bundle of arrows, a bow, and a spear. An inexpensive bow for a learner, but with some room for growth.\n\nCan use 5 mods at quality 6.",,
 
 MidnightsShroud,items,Melee,,,Midnight's Shroud,,
 MidnightsShroudDesc,items,Melee,,,"This long coat protected Midnight from the elements, and the undead. And thanks to its color of a moonless night, it aided her stealth, and now, yours.",,
@@ -83,7 +83,7 @@ MidnightsJudgment,items,Melee,,,Midnight's Judgement,,
 MidnightsJudgmentDesc,items,Melee,,,"The best of both worlds: the clearing ability of a shotgun with the compactness of a pistol. Considered both a pistol and shotgun for perks.\n\nScraps to Shotgun parts.",,
 
 BedlamsTurningPoint,items,Melee,,,Bedlam's Turning Point,,
-BedlamsTurningPointDesc,items,Melee,,,"There’s always room for improvement. In Bedlam’s case, she thought that long, pointy things should also be packed with electricity. Both stab and electrocute your enemies from outside of biting range, all in one delightful, menacing package.",,
+BedlamsTurningPointDesc,items,Melee,,,"There’s always room for improvement. In Bedlam’s case, he thought that long, pointy things should also be packed with electricity. Both stab and electrocute your enemies from outside of biting range, all in one delightful, menacing package.",,
 
 BedlamsCage,items,Melee,,,Bedlam's Cage,,
 BedlamsCageDesc,items,Melee,,,"When firepower wasn’t enough (when isn’t it?), Bedlam figured that intimidation might be a good avenue to explore. As well as protection from explosives and teeth. What more could you want?",,
@@ -127,7 +127,7 @@ perkMidnightsBook2LongDesc,progression,perk  book,,,"Learn to craft a new arrow:
 perkMidnightsBook3Desc,progression,perk  book,,,Craft breach arrows.
 perkMidnightsBook3LongDesc,progression,perk  book,,,"Learn to craft a new arrow: Doors and locked chests got you down? Try breach arrows, today."
 perkMidnightsBook4Desc,progression,perk  book,,,Craft shredder arrows.
-perkMidnightsBook4LongDesc,progression,perk  book,,,"Learn to craft a new arrow: Talon figured that if he hit an enemy hard enough and opened up a severe wound, chances are, they won't get back up to fight Sometimes."
+perkMidnightsBook4LongDesc,progression,perk  book,,,"Learn to craft a new arrow: Talon figured that if he hit an enemy hard enough and opened up a severe wound, chances are, they won't get back up to fight. Sometimes."
 perkMidnightsBook5Desc,progression,perk  book,,,Craft immolation arrows.
 perkMidnightsBook5LongDesc,progression,perk  book,,,"Learn to craft a new arrow: You can usually tell which arrows Bedlam was behind. Fire? On everyone near your target? Yeah."
 perkMidnightsBook6Desc,progression,perk  book,,,Craft shock arrows.
